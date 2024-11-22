@@ -1,5 +1,5 @@
 # Site settings
-title: Pudhina
+title: Penghui Tao
 description: >
   A simple, minimal Jekyll theme for a personal web page and blog, focusing on white space and readability
 
@@ -7,10 +7,10 @@ baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://penghuitao.github.io" # the base hostname & protocol for your site
 
 author:
-  fullname: Pudhina
+  fullname: Penghui Tao
   github: github
   linkedin: linkedin
-  email: example@email.com
+  email: penghuitao@stu.cqu.edu.cn
 
 
 # Syntax highlighting
