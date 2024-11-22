@@ -3,7 +3,7 @@ layout: page
 title: Hello
 subtitle: My name is Penghui Tao
 sitemap:
-  priority: 0.9
+  priority: 2.0
 ---
 
 <img src="{{ '/assets/img/penghui.png' | prepend: site.baseurl }}" id="about-img">
