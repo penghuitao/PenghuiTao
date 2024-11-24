@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Sample"
+title:  "Measurement Invariance: Longitudinal Confirmatory Factor Analysis"
 subtitle: "A longer explanation of stuff"
 date:   2016-05-20 21:21:21 +0530
 categories: ["general"]
