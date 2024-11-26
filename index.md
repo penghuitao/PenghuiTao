@@ -13,7 +13,7 @@ sitemap:
 
 <p align="left">I aim to conduct theory-driven, evidence-based research that not only explores how to <b>mitigate the negative impacts of climate change</b> but also <b>fosters psychological resilience</b> and <b>promotes human well-being</b>. My work touches on two main themes:</p>
 
-<ul>
+<ul align="left">
     <li><b>Exploring Positive and Resilient Coping Strategies</b>: How can we cope with the psychological challenges posed by climate change risks in a way that strengthens resilience?</li>
     <li><b>The Dynamic Role of Emotions in Information Behavior</b>: How do emotions shape the ways individuals process and respond to climate change information, especially in an era of rapid digital media consumption?</li>
 </ul>
