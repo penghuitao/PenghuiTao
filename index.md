@@ -6,7 +6,7 @@ sitemap:
   priority: 0.9
 ---
 
-<img src="{{ '/assets/img/penghui.png' | prepend: site.baseurl }}" id="about-img">
+<img src="{{ '/assets/img/penghui.png' | prepend: site.baseurl }}" id="about-img" style="width: 100%; max-width: 800px;">
 
 <div id="describe-text">
 	<p align="left">I am <b>Penghui Tao</b>, an M.A. student in the School of Journalism and Communication at <b>Chongqing University</b>. I am honored to be a recipient of the 2023-2024 <b>Chinese National Scholarship</b>. My research is dedicated to understanding the <b>emotional and cognitive processes individuals experience when confronting climate change risks</b>. Specifically, I focus on <b>transilience</b>, <b>efficacy beliefs</b>, and <b>climate change anxiety</b>—key factors that influence how we respond to climate change risks and the psychological challenges it presents.</p>
