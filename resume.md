@@ -8,7 +8,7 @@ subtitle: Environmental Psychology & Climate Change Communication
 <br>
 
 ### OVERVIEW
-I am an M.A. student in the School of Journalism and Communication at Chongqing University, where my research focuses on the emotional and cognitive processes that individuals undergo when confronted with climate change risks. Specifically, I investigate **transilience**, **efficacy beliefs**, and **climate change anxiety**, with the goal of fostering psychological resilience and promoting human well-being in response to climate change.
+I am an M.A. student in the School of Journalism and Communication at Chongqing University, where my research focuses on the emotional and cognitive processes that individuals undergo when confronted with climate change risks. Specifically, I investigate **transilience**, **efficacy beliefs**, and **climate change anxiety**, with the goal of mitigating the negative impacts, fostering psychological resilience, and promoting human well-being in response to climate change.
 
 ### EDUCATION
 
@@ -32,7 +32,7 @@ GPA: 3.67/4.00
 
 ### CONFERENCE PRESENTATIONS
 
-**Tao, P., & Ma, X.** (August 7-11, 2024). Clarifying relationships between transilience and efficacy constructs in climate change context: Evidence for independent and overlapping contributions. Presented at the 107th Annual Conference of the Association for Education in Journalism and Mass Communication, Philadelphia, U.S.
+**Tao, P., & Ma, X.** (August 7-11, 2024). *Clarifying relationships between transilience and efficacy constructs in climate change context: Evidence for independent and overlapping contributions.* Presented at the 107th Annual Conference of the Association for Education in Journalism and Mass Communication, Philadelphia, U.S.
 
 ### PROJECTS
 
