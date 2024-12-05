@@ -6,13 +6,17 @@ description: >
 baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "https://penghuitao.github.io" # the base hostname & protocol for your site
 
-# _config.yml
-author:
-  fullname: Penghui Tao
-  github: https://github.com/penghuitao
-  Google: https://scholar.google.com.hk/citations?user=ovC_sTgAAAAJ&hl=zh-CN
-  email: penghuitao@stu.cqu.edu.cn
-
+<div class="author-links">
+  <a href="{{ site.author.github }}" target="_blank">
+    <i class="fab fa-github"></i> GitHub
+  </a>
+  <a href="{{ site.author.Google }}" target="_blank">
+    <i class="fab fa-google"></i> Google Scholar
+  </a>
+  <a href="mailto:{{ site.author.email }}" target="_blank">
+    <i class="fas fa-envelope"></i> Email
+  </a>
+</div>
 
 # Syntax highlighting
 highlightstyle: 'agate'
