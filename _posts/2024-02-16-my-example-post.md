@@ -6,30 +6,27 @@ date:   2024-02-16 21:21:21 +0530
 categories: ["longitudinal analysis"]
 ---
 
-## Introduction  
-In contemporary psychological research, longitudinal studies are increasingly favored by scholars due to their many advantages that cross-sectional studies cannot match. Longitudinal research is an important research design for exploring changes in individuals or groups over time. By tracking data from the same sample at multiple time points, researchers can observe and analyze the development and trajectories of various factors such as behavior, psychological states, and physiological changes. This research design plays an irreplaceable role in understanding psychological development, educational outcomes, and the long-term effects of health interventions. Additionally, longitudinal designs help researchers reveal causal relationships.
+<h2><strong>Preface</strong></h2>
+<p>In contemporary psychological research, longitudinal studies are increasingly favored due to their many advantages over cross-sectional studies. Longitudinal research is an essential design for exploring changes in individuals or groups over time. By tracking data from the same sample at multiple time points, researchers can observe and analyze the development of behavior, psychological states, and physiological changes. In this article, I will explain how to implement Longitudinal Confirmatory Factor Analysis (LCFA) to test longitudinal measurement invariance using Mplus. The provided Mplus syntax will help you ensure that your measurement tools maintain consistency over time, thereby validating the reliability of your study's results.</p>
 
-However, a major challenge in longitudinal research is ensuring that the measurement tools used maintain measurement invariance across the entire study period. Longitudinal measurement invariance refers to whether the same measurement tool consistently measures the same psychological construct or behavioral standard at different time points. Verifying this invariance ensures the reliability of the research results, meaning that the observed changes are due to actual changes in the subjects being studied, not inconsistencies in the measurement tool. In this chapter, I will introduce Longitudinal Confirmatory Factor Analysis (LCFA) to help you test for longitudinal measurement invariance.
+<h2><strong>What is Longitudinal Measurement Invariance?</strong></h2>
+<p>Longitudinal measurement invariance refers to the consistency of a measurement tool across different time points. Specifically, it tests whether the tool measures the same psychological construct or behavioral standard in the same way over time. Verifying this invariance ensures that any observed changes in the study subjects are not due to inconsistencies in the measurement tool but rather reflect actual changes in the subjects themselves. This process is critical for ensuring that longitudinal research findings are reliable and valid.</p>
 
-## Steps for Longitudinal Confirmatory Factor Analysis  
-The analysis steps for longitudinal measurement invariance are similar to those for multi-group measurement invariance, but there are some differences in model specification. Specifically, in a standard CFA model, we generally do not allow error covariances between items, but in longitudinal measurement, the same item is used multiple times. Therefore, in a longitudinal invariance test model, error covariances for the same item at different time points are allowed. Longitudinal measurement invariance can be distinguished into four levels, from less restrictive to more restrictive, and involves four steps:
+<h2><strong>Steps for Testing Longitudinal Measurement Invariance</strong></h2>
+<p>In longitudinal analysis, the steps for testing measurement invariance are similar to those in multi-group analysis, with some differences in model specification. The four key levels of measurement invariance are:</p>
+<ol>
+  <li><strong>Configural Invariance</strong>: This step ensures that the same factor structure is measured across all time points, without imposing any constraints on factor loadings or intercepts.</li>
+  <li><strong>Weak Invariance</strong>: This step constrains factor loadings across time points to ensure that the items maintain consistent relationships with the latent variables at different time points.</li>
+  <li><strong>Strong Invariance</strong>: This step constrains the intercepts to be equal across time points, allowing for comparisons of latent variable means across time.</li>
+  <li><strong>Strict Invariance</strong>: This step constrains the measurement error variances to be equal across time points, ensuring that error variance remains constant across different measurements.</li>
+</ol>
 
-### 1. Configural Invariance  
-This is the most basic test, ensuring that the scale measures the same factor structure at all time points. In this stage, no constraints are placed on factor loadings or intercepts, and the only requirement is that the structural model is consistent across time points.
+<p>The process of testing these invariances proceeds sequentially, with each step applying more restrictive constraints. If you observe significant changes in fit statistics (such as chi-square values), the corresponding invariance hypothesis may need to be rejected. However, in practical applications, we recommend using changes in RMSEA (ΔRMSEA) and CFI (ΔCFI) as the primary criteria for determining measurement invariance. Acceptable thresholds for ΔRMSEA are < 0.015 and for ΔCFI < 0.01 (van de Schoot et al., 2012).</p>
 
-### 2. Weak Invariance  
-Under the assumption of the same structure, weak invariance refers to constraining the factor loadings across time points to be equal. This step ensures that the items on the scale maintain consistent relationships with the corresponding latent variables, thus ensuring the same interpretability across different time points.
+<h2><strong>Implementing Longitudinal Confirmatory Factor Analysis in Mplus</strong></h2>
+<p>Here is how you can implement LCFA using Mplus syntax:</p>
 
-### 3. Strong Invariance  
-With weak invariance in place, strong invariance constrains the intercepts of the measurement models to be equal across time points. The confirmation of strong invariance is a prerequisite for comparing the latent variable means across time points.
-
-### 4. Strict Invariance  
-With strong invariance in place, strict invariance constrains the measurement error variances to be equal across time points. These four models are built step by step, with more stringent restrictions being applied in each subsequent step. There are generally two strategies for comparing models. The first is the change in the chi-square (χ²) value between models. If the chi-square value changes significantly after applying the restrictions, the corresponding invariance hypothesis is rejected. However, chi-square values are sensitive to sample size and often tend to be significant in practical analysis. Therefore, in practice, we use ΔRMSEA and ΔCFI as the primary criteria, with ΔRMSEA < 0.015 and ΔCFI < 0.01 as the standards for accepting the invariance hypothesis (van de Schoot et al., 2012). ΔRMSEA = |RMSEA of the previous model - RMSEA of the next model|, and ΔCFI = |CFI of the previous model - CFI of the next model| (Meade et al., 2008). Based on considerations of statistical power and Type I error rates, it is recommended to adopt stricter standards (CFI < 0.002) for determining invariance.
-
-## How to Implement  
-### Mplus Syntax
-
-**Step 1: Configural Invariance**  
+<h3><strong>Step 1: Configural Invariance</strong></h3>
 ```mplus
 TITLE: Longitudinal Measurement Invariance Test;  
 DATA: FILE IS longitudinaldata.dat;  
@@ -39,3 +36,4 @@ MODEL:
 T1y by t1y1-t1y5;  
 T2y by t2y1-t2y5;  
 t1y1-t1y5 pwith t2y1-t2y5;  
+<p>This sets up the model where errors for the same items at different time points are allowed to correlate. This is necessary for longitudinal analysis where items are measured repeatedly over time.</p> <h3><strong>Step 2: Weak Invariance</strong></h3> ```mplus T1y by t1y1-t1y5(1-5); T2y by t2y1-t2y5(1-5); t1y1-t1y5 pwith t2y1-t2y5; ``` <p>By labeling factor loadings with the same numbers across time points, you ensure that the relationships between the items and the latent variables remain consistent across time.</p> <h3><strong>Step 3: Strong Invariance</strong></h3> ```mplus [t1y1-t1y5](6-10); [t2y1-t2y5](6-10); [T2y*]; ``` <p>This step constrains the intercepts to be equal across time points, which is necessary for comparing the means of latent variables over time.</p> <h3><strong>Step 4: Strict Invariance</strong></h3> ```mplus t1y1-t1y5(11-15); t2y1-t2y5(11-15); ``` <p>This step ensures that the measurement error variances are the same across time points, completing the strict invariance testing.</p> <p>These four Mplus syntax steps should be run in sequence to obtain four result files. You will then summarize fit statistics (e.g., χ², RMSEA, CFI) and compute ΔRMSEA and ΔCFI to determine the invariance of your model.</p> <h2><strong>Further Reading</strong></h2> <p>For more detailed information on measurement invariance, I recommend the following articles:</p> <ul> <li>Meade, A. W., Johnson, E. C., & Braddy, P. W. (2008). Power and sensitivity of alternative fit indices in tests of measurement invariance. *Journal of Applied Psychology, 93*(3), 568-592.</li> <li>van de Schoot, R., Lugtig, P., & Hox, J. (2012). A checklist for testing measurement invariance. *European Journal of Developmental Psychology, 9*(4), 486–492.</li> </ul> <p>That concludes this blog post. If you have any questions, feel free to reach out!</p> ```
