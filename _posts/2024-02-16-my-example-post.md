@@ -28,14 +28,19 @@ categories: ["longitudinal analysis"]
 
 <h3><strong>Step 1: Configural Invariance</strong></h3>
 mplus
-TITLE: Longitudinal Measurement Invariance Test;  
-DATA: FILE IS longitudinaldata.dat;  
+TITLE: Longitudinal Measurement Invariance Test;
+!The title can be left blank.
+DATA: FILE IS longitudinaldata.dat;
+!Indicate the data file, which can be a dat or csv file. When the code and data are in the same folder, the path where the data is located can be omitted.
 VARIABLE: Names are t1y1-t1y5 t2y1-t2y5;  
+!All variable names t1y1-t1y5 in the data file are the five entries for time T1, and t2y1-t2y5 are the five entries for time T2.
 ANALYSIS: TYPE=GENERAL; ESTIMATOR=ML;  
+!Usually, default settings are sufficient.
 MODEL:  
 T1y by t1y1-t1y5;  
 T2y by t2y1-t2y5;  
 t1y1-t1y5 pwith t2y1-t2y5;  
+!Set the variance correlation of different time errors for the same item.
 <p>This sets up the model where errors for the same items at different time points are allowed to correlate. This is necessary for longitudinal analysis where items are measured repeatedly over time.</p> 
 <h3><strong>Step 2: Weak Invariance</strong></h3> 
 T1y by t1y1-t1y5(1-5);  
