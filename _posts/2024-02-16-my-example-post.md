@@ -38,21 +38,18 @@ T2y by t2y1-t2y5;
 t1y1-t1y5 pwith t2y1-t2y5;  
 <p>This sets up the model where errors for the same items at different time points are allowed to correlate. This is necessary for longitudinal analysis where items are measured repeatedly over time.</p> 
 <h3><strong>Step 2: Weak Invariance</strong></h3> 
-mplus
-T1y by t1y1-t1y5(1-5);
-T2y by t2y1-t2y5(1-5);
-t1y1-t1y5 pwith t2y1-t2y5;
+T1y by t1y1-t1y5(1-5);  
+T2y by t2y1-t2y5(1-5);  
+t1y1-t1y5 pwith t2y1-t2y5;  
 <p>By labeling factor loadings with the same numbers across time points, you ensure that the relationships between the items and the latent variables remain consistent across time.</p> 
 <h3><strong>Step 3: Strong Invariance</strong></h3>
-mplus
-[t1y1-t1y5](6-10);
-[t2y1-t2y5](6-10);
-[T2y*]; 
+[t1y1-t1y5](6-10);  
+[t2y1-t2y5](6-10);  
+[T2y*];  
 <p>This step constrains the intercepts to be equal across time points, which is necessary for comparing the means of latent variables over time.</p> 
 <h3><strong>Step 4: Strict Invariance</strong></h3> 
-mplus 
-t1y1-t1y5(11-15);
-t2y1-t2y5(11-15); 
+t1y1-t1y5(11-15);  
+t2y1-t2y5(11-15);  
 <p>This step ensures that the measurement error variances are the same across time points, completing the strict invariance testing.</p> 
 <p>These four Mplus syntax steps should be run in sequence to obtain four result files. You will then summarize fit statistics (e.g., χ², RMSEA, CFI) and compute ΔRMSEA and ΔCFI to determine the invariance of your model.</p> 
 <h2><strong>Further Reading</strong></h2> 
