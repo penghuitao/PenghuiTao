@@ -7,7 +7,7 @@ categories: ["longitudinal analysis"]
 ---
 
 <h2><strong>Preface</strong></h2>
-<p>In contemporary psychological research, longitudinal studies are increasingly favored due to their many advantages over cross-sectional studies. Longitudinal research is an essential design for exploring changes in individuals or groups over time. By tracking data from the same sample at multiple time points, researchers can observe and analyze the development of behavior, psychological states, and physiological changes. In this article, I will explain how to implement Longitudinal Confirmatory Factor Analysis (LCFA) to test longitudinal measurement invariance using Mplus. The provided Mplus syntax will help you ensure that your measurement tools maintain consistency over time, thereby validating the reliability of your study's results.</p>
+<p>In communication research, longitudinal studies are increasingly favored due to their many advantages over cross-sectional studies. Longitudinal research is an essential design for exploring changes in individuals or groups over time. By tracking data from the same sample at multiple time points, researchers can observe and analyze the development of behavior, psychological states, and physiological changes. In this article, I will explain how to implement Longitudinal Confirmatory Factor Analysis (LCFA) to test longitudinal measurement invariance using Mplus. The provided Mplus syntax will help you ensure that your measurement tools maintain consistency over time, thereby validating the reliability of your study's results.</p>
 
 <h2><strong>What is Longitudinal Measurement Invariance?</strong></h2>
 <p>Longitudinal measurement invariance refers to the consistency of a measurement tool across different time points. Specifically, it tests whether the tool measures the same psychological construct or behavioral standard in the same way over time. Verifying this invariance ensures that any observed changes in the study subjects are not due to inconsistencies in the measurement tool but rather reflect actual changes in the subjects themselves. This process is critical for ensuring that longitudinal research findings are reliable and valid.</p>
@@ -27,7 +27,7 @@ categories: ["longitudinal analysis"]
 <p>Here is how you can implement LCFA using Mplus syntax:</p>
 
 <h3><strong>Step 1: Configural Invariance</strong></h3>
-```mplus
+mplus
 TITLE: Longitudinal Measurement Invariance Test;  
 DATA: FILE IS longitudinaldata.dat;  
 VARIABLE: Names are t1y1-t1y5 t2y1-t2y5;  
@@ -38,25 +38,25 @@ T2y by t2y1-t2y5;
 t1y1-t1y5 pwith t2y1-t2y5;  
 <p>This sets up the model where errors for the same items at different time points are allowed to correlate. This is necessary for longitudinal analysis where items are measured repeatedly over time.</p> 
 <h3><strong>Step 2: Weak Invariance</strong></h3> 
-```mplus
+mplus
 T1y by t1y1-t1y5(1-5);
 T2y by t2y1-t2y5(1-5);
-t1y1-t1y5 pwith t2y1-t2y5; ``` 
+t1y1-t1y5 pwith t2y1-t2y5;
 <p>By labeling factor loadings with the same numbers across time points, you ensure that the relationships between the items and the latent variables remain consistent across time.</p> 
 <h3><strong>Step 3: Strong Invariance</strong></h3>
-```mplus
+mplus
 [t1y1-t1y5](6-10);
 [t2y1-t2y5](6-10);
-[T2y*]; ``` 
+[T2y*]; 
 <p>This step constrains the intercepts to be equal across time points, which is necessary for comparing the means of latent variables over time.</p> 
 <h3><strong>Step 4: Strict Invariance</strong></h3> 
-```mplus 
+mplus 
 t1y1-t1y5(11-15);
-t2y1-t2y5(11-15); ``` 
+t2y1-t2y5(11-15); 
 <p>This step ensures that the measurement error variances are the same across time points, completing the strict invariance testing.</p> 
 <p>These four Mplus syntax steps should be run in sequence to obtain four result files. You will then summarize fit statistics (e.g., χ², RMSEA, CFI) and compute ΔRMSEA and ΔCFI to determine the invariance of your model.</p> 
 <h2><strong>Further Reading</strong></h2> 
 <p>For more detailed information on measurement invariance, I recommend the following articles:</p> 
 <ul> <li>Meade, A. W., Johnson, E. C., & Braddy, P. W. (2008). Power and sensitivity of alternative fit indices in tests of measurement invariance. *Journal of Applied Psychology, 93*(3), 568-592.</li> 
   <li>van de Schoot, R., Lugtig, P., & Hox, J. (2012). A checklist for testing measurement invariance. *European Journal of Developmental Psychology, 9*(4), 486–492.</li> </ul> 
-<p>That concludes this blog post. If you have any questions, feel free to reach out!</p> ```
+<p>That concludes this blog post. If you have any questions, feel free to reach out!</p> 
