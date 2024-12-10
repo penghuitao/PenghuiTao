@@ -1,9 +1,9 @@
 ---
 layout: page
-title:  "Measurement Invariance: Longitudinal Confirmatory Factor Analysis"
-subtitle: "A longer explanation of stuff"
-date:   2016-05-20 21:21:21 +0530
-categories: ["general"]
+title:  "Longitudinal Confirmatory Factor Analysis"
+subtitle: "Measurement Invariance"
+date:   2024-02-16 21:21:21 +0530
+categories: ["longitudinal analysis"]
 ---
 
 Eos eu docendi tractatos sapientem, brute option menandri in vix, quando vivendo accommodare te ius. Nec melius fastidii constituam id, viderer theophrastus ad sit, hinc semper periculis cum id. Noluisse postulant assentior est in, no choro sadipscing repudiandae vix. Vis in euismod delenit dignissim. Ex quod nostrum sit, suas decore animal id ius, nobis solet detracto quo te.
