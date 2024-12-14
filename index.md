@@ -24,7 +24,7 @@ sitemap:
 
 <h1>News and Updates</h1>
 
-<div id="updates">
+<div id="updates" style="text-align: left;">
   <p><b>[Dec 14, 2024]</b> Submitted a co-authored paper to ICEP 2025 on the longitudinal relationships between climate change anxiety, worry, information seeking, and information avoidance! Fingers crossed!</p>
 
   <p><b>[Dec 5, 2024]</b> The second wave of data collection for our large-scale longitudinal survey has been completed with a satisfying response rate!</p>
