@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Exploratory Factor Analysis"
+title:  "Exploratory Factor Analysis"
 subtitle: "What is it and how to use it"
 date:   2023-06-08 21:21:21 +0530
-categories: Factor analysis
+categories: ["Factor Analysis"]
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
