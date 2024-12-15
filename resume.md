@@ -31,7 +31,7 @@ GPA: 3.67/4.00
 
 **Tao, P., & Ma, X.** (August 7-11, 2024). Clarifying relationships between transilience and efficacy constructs in climate change context: Evidence for independent and overlapping contributions. Presented at the *107th Annual Conference of the Association for Education in Journalism and Mass Communication*, Philadelphia, U.S.
 
-### PROJECTS
+### ONGOING RESEARCH
 
 **With great power comes great risk: A three-wave longitudinal study of the Risk Perception Attitude (RPA) framework in China**  
 A longitudinal study focusing on the Risk Perception Attitude (RPA) framework. <span style="float: right; ">Ongoing</span>
