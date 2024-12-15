@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blog
-subtitle: Select ramblings of Penghui Tao
+subtitle: Select Tutorials of Penghui Tao
 ---
 
 <div>
