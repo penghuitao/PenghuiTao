@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Introducing the Design of Manipulation-of-Mediation-as-a-Moderator"
-subtitle: "A concise tutorial"
+subtitle: ""
 date:   2023-09-30 22:00:21 +0530
 categories: ["Mediation Analysis"]
 ---
