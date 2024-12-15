@@ -3,7 +3,7 @@ layout: page
 title:  "Measurement Invariance: Longitudinal Confirmatory Factor Analysis"
 subtitle: "How to implement it in Mplus"
 date:   2024-02-16 21:21:21 +0530
-categories: ["longitudinal analysis"]
+categories: ["Longitudinal Analysis"]
 ---
 
 <h2><strong>Preface</strong></h2>
