@@ -34,7 +34,7 @@ GPA: 3.67/4.00
 ### PROJECTS
 
 **With great power comes great risk: A three-wave longitudinal study of the Risk Perception Attitude (RPA) framework in China**  
-A longitudinal study focusing on risk perception and how individuals process climate change information through the lens of the Risk Perception Attitude framework. <span style="float: right; ">Ongoing</span>
+A longitudinal study focusing on the Risk Perception Attitude (RPA) framework. <span style="float: right; ">Ongoing</span>
 
 **Untangling the impact of anxiety and worry on information seeking and avoidance in the context of climate change: A four-wave longitudinal study in China**  
 A study examining how anxiety and worry influence individuals’ information-seeking behaviors related to climate change, based on a longitudinal dataset. <span style="float: right; ">Wave 1 and 2 completed: n=4186, n=2720</span>
