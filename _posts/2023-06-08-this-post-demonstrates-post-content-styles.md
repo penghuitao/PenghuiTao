@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Exploratory Factor Analysis"
-subtitle: "What is it and how to use it"
+subtitle: ""
 date:   2023-06-08 21:21:21 +0530
 categories: ["Factor Analysis"]
 ---
