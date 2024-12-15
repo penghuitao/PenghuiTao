@@ -22,7 +22,7 @@ GPA: 3.67/4.00
 
 ### RESEARCH SUMMARY
 
-- **Research Areas:** Climate change communication; Risk communication
+- **Research Areas:** Climate change communication; Environmental psychology
 - **Research Methods:** Survey (e.g., longitudinal panel surveys); Experiment (e.g., web-based experiments, manipulation-of-mediation-as-a-moderator design); Advanced statistical methods (e.g., random intercept cross-lagged panel model, structural equation modeling, exploratory graph analysis)
 - **Analytics:** R, Mplus, SPSS
 
@@ -43,7 +43,7 @@ A longitudinal study focusing on risk perception and how individuals process cli
 A study examining how anxiety and worry influence individuals’ information-seeking behaviors related to climate change, based on a longitudinal dataset. <span style="float: right; ">Wave 1 and 2 completed: n=4186, n=2720</span>
 
 **Can procrastination save the world? Active procrastination motivates pro-environmental behaviors through resilience**  
-An experimental and longitudinal study examining the role of active procrastination in fostering pro-environmental behaviors through resilience. <span style="float: right; ">Ongoing</span>
+Three experimental studies and a longitudinal study examining the role of active procrastination in fostering pro-environmental behaviors through resilience. <span style="float: right; ">Ongoing</span>
 
 ### HONORS & FELLOWSHIPS
 
@@ -59,7 +59,7 @@ An experimental and longitudinal study examining the role of active procrastinat
 Assisted in writing and editing news articles on a variety of topics, with a focus on climate change and environmental issues. Conducted interviews and research to support news reports. 
 
 **Secretary General of Central China - The Youth4Climate Program to United Nations Framework Convention on Climate Change COP 25** <span style="float: right; ">12/2019 - 05/2020</span>  
-Managed and coordinated activities related to youth participation in the UNFCCC COP 25, working on climate advocacy and facilitating communication between young people and policymakers.
+Managed and coordinated activities related to youth participation in the UNFCCC COP 25, working on climate advocacy and facilitating communication between young people, scientist, and policymakers.
 
 **Media Assistant - Jindon National Forest Park (Hunan, China)** <span style="float: right; ">06/2021 - 09/2021</span>  
 Supported media efforts to promote conservation initiatives and raise awareness about the park's ecological importance. Assisted with social media management and content creation.  
