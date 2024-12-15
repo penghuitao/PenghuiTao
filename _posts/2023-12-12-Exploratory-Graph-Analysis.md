@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  "Visualizing Connections: A Guide to Exploratory Graph Analysis"
-subtitle: "How to Use It in R"
+subtitle: ""
 date:   2023-12-12 15:01:21 +0530
 categories: ["Network Analysis"]
 ---
