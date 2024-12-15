@@ -27,7 +27,6 @@ categories: ["Longitudinal Analysis"]
 <p>Here is how you can implement LCFA using Mplus syntax:</p>
 
 <h3><strong>Step 1: Configural Invariance</strong></h3>
-mplus
 <Pre>
 TITLE: Longitudinal Measurement Invariance Test;
 !The title can be left blank.
@@ -66,7 +65,7 @@ t2y1-t2y5(11-15); </Pre>
 <p>This step ensures that the measurement error variances are the same across time points, completing the strict invariance testing.</p> 
 <p>These four Mplus syntax steps should be run in sequence to obtain four result files. You will then summarize fit statistics (e.g., χ², RMSEA, CFI) and compute ΔRMSEA and ΔCFI to determine the invariance of your model.</p> 
 <h2><strong>Further Reading</strong></h2> 
-<p>For more detailed information on measurement invariance, I recommend the following articles:</p> 
+<p>For more detailed information on measurement invariance, I recommend the following articles: 
 <br>Meade, A. W., Johnson, E. C., & Braddy, P. W. (2008). Power and sensitivity of alternative fit indices in tests of measurement invariance. <i>Journal of Applied Psychology, 93</i>(3), 568-592.
-<br>van de Schoot, R., Lugtig, P., & Hox, J. (2012). A checklist for testing measurement invariance. <i>European Journal of Developmental Psychology, 9</i>(4), 486–492.
+<br>van de Schoot, R., Lugtig, P., & Hox, J. (2012). A checklist for testing measurement invariance. <i>European Journal of Developmental Psychology, 9</i>(4), 486–492.</p>
 <p>That concludes this blog post. If you have any questions, feel free to reach out!</p> 
