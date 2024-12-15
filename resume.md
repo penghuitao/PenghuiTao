@@ -1,14 +1,11 @@
 ---
 layout: page
 title: Penghui Tao
-subtitle: Environmental Psychology & Climate Change Communication
+subtitle:
 ---
 
 <span style="float: right; "><a href="{{ '/assets/resume.pdf' | prepend: site.baseurl }}"><strong>> Download as PDF</strong></a> </span>
 <br>
-
-### OVERVIEW
-I am an M.A. student in the School of Journalism and Communication at Chongqing University, where my research focuses on the **emotional and cognitive processes** that individuals undergo when confronted with **climate change risks**. Specifically, I investigate **transilience**, **efficacy beliefs**, and **climate change anxiety**, with the goal of **mitigating the negative impacts**, **fostering psychological resilience**, and **promoting human well-being** in response to climate change.
 
 ### EDUCATION
 
