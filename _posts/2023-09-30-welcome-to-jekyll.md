@@ -3,7 +3,7 @@ layout: page
 title:  "Introducing the Design of Manipulation-of-Mediation-as-a-Moderator"
 subtitle: "A concise tutorial"
 date:   2023-09-30 22:00:21 +0530
-categories: ["Mediation analyses"]
+categories: ["Mediation Analysis"]
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
