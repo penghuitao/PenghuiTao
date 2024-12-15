@@ -36,7 +36,7 @@ sitemap:
 
   <p><b>[June 20, 2024]</b> The first wave of data from our large-scale longitudinal survey has been collected! It’s a quota sample with a sample size of <b>4,186</b>!</p>
 
-  <p><b>[June 1, 2024]</b> An exciting milestone! My team and I officially launched <b>a large-scale longitudinal survey using quota sampling</b>. Over <b>the next 18 months</b>, we will conduct <b>four waves</b> of measurement on variables like climate change anxiety. Over the past six months, I raised <b>¥40,000 (approximately $5,500)</b> for this project! Wish us the best of luck!</p>
+  <p><b>[June 1, 2024]</b> An exciting milestone! My team and I officially launched <b>a large-scale longitudinal survey using quota sampling</b>. Over <b>the next 18 months</b>, we will conduct <b>four waves</b> of measurement on variables like climate change anxiety, worry, efficacy belief, pro-environmental behavior, and information behaviors. Over the past six months, I raised <b>¥40,000 (approximately $5,500)</b> for this project! Wish us the best of luck!</p>
 
   <p><b>[May 16, 2024]</b> Our paper on transilience and efficacy constructs has been accepted by the <b>AEJMC 2024 Annual Conference</b>! See you in Philadelphia!</p>
 
