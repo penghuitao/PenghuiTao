@@ -9,7 +9,7 @@ sitemap:
 <img src="{{ '/assets/img/penghui.png' | prepend: site.baseurl }}" id="about-img" style="width: 30%; max-width: 800px;">
 
 <div id="describe-text">
-	<p align="left">I am <b>Penghui Tao</b>, an M.A. student in the School of Journalism and Communication at <b>Chongqing University</b>. I am honored to be a recipient of the 2023-2024 <b>Chinese National Scholarship</b>. My research is dedicated to understanding the <b>emotional and cognitive processes individuals experience when confronting climate change risks</b>. I aim to conduct theory-driven, evidence-based research that not only explores how to <b>mitigate the negative impacts of climate change</b> but also <b>fosters psychological resilience</b> and <b>promotes human well-being</b>.</p>
+	<p align="left">I am <b>Penghui Tao</b>, an M.A. student in the School of Journalism and Communication at <b>Chongqing University</b>. I am honored to be a recipient of the 2024 <b>Chinese National Scholarship</b>. My research is dedicated to understanding the <b>emotional and cognitive processes individuals experience when confronting climate change risks</b>. I aim to conduct theory-driven, evidence-based research that not only explores how to <b>mitigate the negative impacts of climate change</b> but also <b>fosters psychological resilience</b> and <b>promotes human well-being</b>.</p>
 
 <p align="left">I am proud to have had my research published in <a href="https://doi.org/10.1007/s12144-024-06864-y"><b><i>Current Psychology</i></b></a>, a peer-reviewed journal indexed in the SSCI. Methodologically, my approach is rooted in <b>quantitative research</b>, using techniques such as <b>web-based experiments</b>, <b>longitudinal panel surveys</b>, and <b>advanced statistical analyses</b> (e.g., <b>exploratory graph analysis</b>, <b>longitudinal panel analysis</b>, and <b>structural equation modeling</b>) to draw meaningful causal inferences.</p>
 
@@ -24,7 +24,7 @@ sitemap:
 
   <p><b>[Nov 21, 2024]</b> Honored to receive <b>the highest academic scholarship</b> for graduate students at Chongqing University for 2024!</p>
 
-  <p><b>[Oct 31, 2024]</b> Thrilled to have been awarded <b>the 2023-2024 National Scholarship</b> of the People's Republic of China!</p>
+  <p><b>[Oct 31, 2024]</b> Thrilled to have been awarded the 2024 <b>National Scholarship</b> of the People's Republic of China!</p>
 
   <p><b>[Oct 30, 2024]</b> Submitted a single-authored paper to <b>International Conference on Environmental Psychology (ICEP) 2025</b> on the three-wave longitudinal relationships between climate change transilience, efficacy, and risk perception! Wish me luck!</p>
 
@@ -34,7 +34,7 @@ sitemap:
 
   <p><b>[Aug 10, 2024]</b> Attended the <b>AEJMC 2024</b> conference and presented a poster on my recent research exploring the distinctiveness between efficacy constructs and transilience!</p>
 
-  <p><b>[June 1, 2024]</b> An exciting milestone! My team and I officially launched <b>a large-scale longitudinal tracking survey using quota sampling</b>. Over <b>the next 18 months</b>, we will conduct <b>four waves</b> of measurement on variables like climate change anxiety. Over the past six months, I raised <b>¥40,000 (approximately $5,500)</b> for this project! Wish us the best of luck!</p>
+  <p><b>[June 1, 2024]</b> An exciting milestone! My team and I officially launched <b>a large-scale longitudinal panel survey using quota sampling</b>. Over <b>the next 18 months</b>, we will conduct <b>four waves</b> of measurement on variables like climate change anxiety. Over the past six months, I raised <b>¥40,000 (approximately $5,500)</b> for this project! Wish us the best of luck!</p>
 
   <p><b>[May 16, 2024]</b> Our paper on transilience and efficacy constructs has been accepted by the <b>AEJMC 2024 Annual Conference</b>! See you in Philadelphia!</p>
 
