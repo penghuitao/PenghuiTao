@@ -15,7 +15,7 @@ sitemap:
 
 <ul align="left">
     <li><b>Exploring Positive and Resilient Coping Strategies</b>: How can we cope with the psychological challenges posed by climate change risks in a way that strengthens resilience?</li>
-    <li><b>The Dynamic Role of Emotions in Information Behavior</b>: How do emotions shape the ways individuals process and respond to climate change information, especially in an era of rapid digital media environment?</li>
+    <li><b>The Role of Emotions in Information Behavior</b>: How do emotions shape the ways individuals process and respond to climate change information, especially in an era of rapid digital media environment?</li>
 </ul>
 
 <p align="left">I am proud to have had my research published in <a href="https://doi.org/10.1007/s12144-024-06864-y"><b><i>Current Psychology</i></b></a>, a peer-reviewed journal indexed in the SSCI. Methodologically, my approach is rooted in <b>quantitative research</b>, using techniques such as <b>web-based experiments</b>, <b>longitudinal panel surveys</b>, and <b>advanced statistical analyses</b> (e.g., <b>exploratory graph analysis</b>, <b>longitudinal panel analysis</b>, and <b>structural equation modeling</b>) to draw meaningful causal inferences.</p>
@@ -31,9 +31,9 @@ sitemap:
 
   <p><b>[Nov 21, 2024]</b> Honored to receive <b>the highest academic scholarship</b> for graduate students at Chongqing University for 2024!</p>
 
-  <p><b>[Oct 31, 2024]</b> Thrilled to have been awarded <b>the 2024 National Scholarship</b> of the People's Republic of China!</p>
+  <p><b>[Oct 31, 2024]</b> Thrilled to have been awarded <b>the 2023-2024 National Scholarship</b> of the People's Republic of China!</p>
 
-  <p><b>[Oct 30, 2024]</b> Submitted a single-authored paper to <b>ICEP 2025</b> on the three-wave longitudinal relationships between climate change transilience, efficacy, and risk perception! Fingers crossed!</p>
+  <p><b>[Oct 30, 2024]</b> Submitted a single-authored paper to <b>International Conference on Environmental Psychology (ICEP) 2025</b> on the three-wave longitudinal relationships between climate change transilience, efficacy, and risk perception! Fingers crossed!</p>
 
   <p><b>[Oct 19, 2024]</b> My <b>first SSCI-indexed paper</b> as the first author, titled <i>"Validating the Distinctiveness Between Transilience and Efficacy Constructs in China"</i>, has been accepted by <i><a href="https://doi.org/10.1007/s12144-024-06864-y" target="_blank">Current Psychology</a></i>! I’m beyond excited and proud!</p>
 
