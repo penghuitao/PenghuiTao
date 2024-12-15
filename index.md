@@ -14,7 +14,7 @@ sitemap:
 <p align="left">I aim to conduct theory-driven, evidence-based research that not only explores how to <b>mitigate the negative impacts of climate change</b> but also <b>fosters psychological resilience</b> and <b>promotes human well-being</b>. My work touches on two main themes:</p>
 
 <ul align="left">
-    <li><b>Exploring Positive and Resilient Coping Strategies</b>: How can we cope with the psychological challenges posed by climate change risks in a way that strengthens resilience?</li>
+    <li><b>Exploring Positive and Resilient Coping Strategies</b>: How can we cope with the psychological challenges posed by climate change risks in a way that strengthens resilience (or transilience)?</li>
     <li><b>The Role of Emotions in Information Behavior</b>: How do emotions shape the ways individuals process and respond to climate change information, especially in an era of rapid digital media environment?</li>
 </ul>
 
@@ -33,11 +33,11 @@ sitemap:
 
   <p><b>[Oct 31, 2024]</b> Thrilled to have been awarded <b>the 2023-2024 National Scholarship</b> of the People's Republic of China!</p>
 
-  <p><b>[Oct 30, 2024]</b> Submitted a single-authored paper to <b>International Conference on Environmental Psychology (ICEP) 2025</b> on the three-wave longitudinal relationships between climate change transilience, efficacy, and risk perception! Fingers crossed!</p>
+  <p><b>[Oct 30, 2024]</b> Submitted a single-authored paper to <b>International Conference on Environmental Psychology (ICEP) 2025</b> on the three-wave longitudinal relationships between climate change transilience, efficacy, and risk perception! Wish me luck!</p>
 
   <p><b>[Oct 19, 2024]</b> My <b>first SSCI-indexed paper</b> as the first author, titled <i>"Validating the Distinctiveness Between Transilience and Efficacy Constructs in China"</i>, has been accepted by <i><a href="https://doi.org/10.1007/s12144-024-06864-y" target="_blank">Current Psychology</a></i>! I’m beyond excited and proud!</p>
 
-  <p><b>[Sep 4, 2024]</b> Submitted a <b>funding application</b> for my research. Fingers crossed!</p>
+  <p><b>[Sep 4, 2024]</b> Submitted a <b>funding application</b> for my research. Wish me luck!</p>
 
   <p><b>[Aug 10, 2024]</b> Attended the <b>AEJMC 2024</b> conference and presented a poster on my recent research exploring the distinctiveness between efficacy constructs and transilience!</p>
 
