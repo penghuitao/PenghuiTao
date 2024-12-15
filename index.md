@@ -20,7 +20,7 @@ sitemap:
 <div id="updates" style="text-align: left;">
   <p><b>[Dec 14, 2024]</b> Submitted a co-authored paper to <b>ICEP 2025</b> on the longitudinal relationships between climate change anxiety, worry, information seeking, and information avoidance! Fingers crossed!</p>
 
-  <p><b>[Dec 5, 2024]</b> The second wave of data collection for our large-scale longitudinal survey has been completed with <b>a satisfying response rate</b>!</p>
+  <p><b>[Dec 1, 2024]</b> The second wave of data collection for our large-scale longitudinal survey has been completed with <b>a satisfying response rate</b>!</p>
 
   <p><b>[Nov 21, 2024]</b> Honored to receive <b>the highest academic scholarship</b> for graduate students at Chongqing University for 2024!</p>
 
@@ -34,7 +34,9 @@ sitemap:
 
   <p><b>[Aug 10, 2024]</b> Attended the <b>AEJMC 2024</b> conference and presented a poster on my recent research exploring the distinctiveness between efficacy constructs and transilience!</p>
 
-  <p><b>[June 1, 2024]</b> An exciting milestone! My team and I officially launched <b>a large-scale longitudinal panel survey using quota sampling</b>. Over <b>the next 18 months</b>, we will conduct <b>four waves</b> of measurement on variables like climate change anxiety. Over the past six months, I raised <b>¥40,000 (approximately $5,500)</b> for this project! Wish us the best of luck!</p>
+  <p><b>[June 20, 2024]</b> The first wave of data from our large-scale longitudinal survey has been collected! It’s a quota sample with a sample size of <b>4,186</b>!</p>
+
+  <p><b>[June 1, 2024]</b> An exciting milestone! My team and I officially launched <b>a large-scale longitudinal survey using quota sampling</b>. Over <b>the next 18 months</b>, we will conduct <b>four waves</b> of measurement on variables like climate change anxiety. Over the past six months, I raised <b>¥40,000 (approximately $5,500)</b> for this project! Wish us the best of luck!</p>
 
   <p><b>[May 16, 2024]</b> Our paper on transilience and efficacy constructs has been accepted by the <b>AEJMC 2024 Annual Conference</b>! See you in Philadelphia!</p>
 
