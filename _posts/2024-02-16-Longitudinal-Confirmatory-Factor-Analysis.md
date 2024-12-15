@@ -28,6 +28,7 @@ categories: ["Longitudinal Analysis"]
 
 <h3><strong>Step 1: Configural Invariance</strong></h3>
 mplus
+<Pre>
 TITLE: Longitudinal Measurement Invariance Test;
 !The title can be left blank.
 DATA: FILE IS longitudinaldata.dat;
@@ -40,25 +41,32 @@ MODEL:
 T1y by t1y1-t1y5;  
 T2y by t2y1-t2y5;  
 t1y1-t1y5 pwith t2y1-t2y5;  
-!Set the variance correlation of different time errors for the same item.
+!Set the variance correlation of different time errors for the same item.</Pre>
+
 <p>This sets up the model where errors for the same items at different time points are allowed to correlate. This is necessary for longitudinal analysis where items are measured repeatedly over time.</p> 
 <h3><strong>Step 2: Weak Invariance</strong></h3> 
+<Pre>
 T1y by t1y1-t1y5(1-5);  
 T2y by t2y1-t2y5(1-5);  
-t1y1-t1y5 pwith t2y1-t2y5;  
+t1y1-t1y5 pwith t2y1-t2y5;</Pre>
+
 <p>By labeling factor loadings with the same numbers across time points, you ensure that the relationships between the items and the latent variables remain consistent across time.</p> 
 <h3><strong>Step 3: Strong Invariance</strong></h3>
+<Pre>
 [t1y1-t1y5](6-10);  
 [t2y1-t2y5](6-10);  
-[T2y*];  
+[T2y*];</Pre>
+
 <p>This step constrains the intercepts to be equal across time points, which is necessary for comparing the means of latent variables over time.</p> 
 <h3><strong>Step 4: Strict Invariance</strong></h3> 
+<Pre>
 t1y1-t1y5(11-15);  
-t2y1-t2y5(11-15);  
+t2y1-t2y5(11-15); </Pre> 
+
 <p>This step ensures that the measurement error variances are the same across time points, completing the strict invariance testing.</p> 
 <p>These four Mplus syntax steps should be run in sequence to obtain four result files. You will then summarize fit statistics (e.g., χ², RMSEA, CFI) and compute ΔRMSEA and ΔCFI to determine the invariance of your model.</p> 
 <h2><strong>Further Reading</strong></h2> 
 <p>For more detailed information on measurement invariance, I recommend the following articles:</p> 
-<ul> <li>Meade, A. W., Johnson, E. C., & Braddy, P. W. (2008). Power and sensitivity of alternative fit indices in tests of measurement invariance. *Journal of Applied Psychology, 93*(3), 568-592.</li> 
-  <li>van de Schoot, R., Lugtig, P., & Hox, J. (2012). A checklist for testing measurement invariance. *European Journal of Developmental Psychology, 9*(4), 486–492.</li> </ul> 
+<br>Meade, A. W., Johnson, E. C., & Braddy, P. W. (2008). Power and sensitivity of alternative fit indices in tests of measurement invariance. <i>Journal of Applied Psychology, 93</i>(3), 568-592.
+<br>van de Schoot, R., Lugtig, P., & Hox, J. (2012). A checklist for testing measurement invariance. <i>European Journal of Developmental Psychology, 9</i>(4), 486–492.
 <p>That concludes this blog post. If you have any questions, feel free to reach out!</p> 
