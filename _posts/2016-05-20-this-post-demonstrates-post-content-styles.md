@@ -1,11 +1,9 @@
 ---
 layout: page
-title: "This post demonstrates post content styles"
-subtitle: "This is a subtitle"
-date:   2020-06-20 21:21:21 +0530
-categories: junk
-author: "Bart Simpson"
-meta: "Springfield"
+title: "Exploratory Factor Analysis"
+subtitle: "What is it and how to use it"
+date:   2023-06-08 21:21:21 +0530
+categories: Factor analysis
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce bibendum neque eget nunc mattis eu sollicitudin enim tincidunt. Vestibulum lacus tortor, ultricies id dignissim ac, bibendum in velit.
