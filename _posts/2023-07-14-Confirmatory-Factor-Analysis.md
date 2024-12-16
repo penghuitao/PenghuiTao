@@ -1,3 +1,11 @@
+---
+layout: page
+title:  "Confirmatory Factor Analysis"
+subtitle: ""
+date:   2023-07-14 21:21:21 +0530
+categories: ["Factor Analysis"]
+---
+
 
 <h3>What is Confirmatory Factor Analysis (CFA)?</h3>
 <p>Confirmatory Factor Analysis (CFA) is the opposite of Exploratory Factor Analysis (EFA). It involves defining specific factors or constructs of interest (e.g., loyalty, satisfaction) based on literature, and then using survey items to measure these constructs (e.g., loyalty could be measured by purchase frequency or willingness to recommend). The primary goal of CFA is to test whether the items indeed reflect the construct as hypothesized, making CFA a tool for confirming theoretical models.</p>
