@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Introduction to Factor Analysis"
+title:  "Introduction to Factor Analysis: EFA and CFA"
 subtitle: ""
 date:   2023-05-01 21:21:21 +0530
 categories: ["Factor Analysis"]
@@ -24,10 +24,13 @@ categories: ["Factor Analysis"]
 <p>Factor analysis can be divided into two major types: Exploratory Factor Analysis (EFA) and Confirmatory Factor Analysis (CFA), depending on whether there is a theoretical foundation before analysis.</p>
 
 <h3><strong>Exploratory Factor Analysis (EFA)</strong></h3>
-<p>EFA is a technique used to identify the inherent structure of multiple observed variables and reduce dimensionality. It is used to explore the dimensional composition of psychological structures.</p>
+<p>The core of Exploratory Factor Analysis (EFA) is to uncover the latent structure in the data. It uses methods like Principal Component Analysis (PCA) or Common Factor Analysis to break down observed variables into a few underlying factors. These factors represent the shared variance among the observed variables and can be interpreted as latent constructs. One of the advantages of EFA in research design is its exploratory nature; it allows researchers to discover potential structural relationships between variables without a prior hypothesis. However, EFA also has limitations, such as its inability to directly test theoretical models, and the choice of factor rotation method can influence the interpretation of results.</p>
 
 <h3><strong>Confirmatory Factor Analysis (CFA)</strong></h3>
-<p>CFA is used to test whether the relationships between factors and their corresponding measurement items align with the theoretical relationships designed by the researcher. It is used to test theoretical hypotheses about psychological structures.</p>
+<p>In contrast to EFA, Confirmatory Factor Analysis (CFA) is a more rigorous statistical method that requires researchers to specify a theoretical model before analysis. CFA uses Structural Equation Modeling (SEM) to assess the goodness-of-fit between the observed data and the theoretical model, thereby testing theoretical hypotheses. The strength of CFA lies in its confirmatory nature, as it provides model fit indices to help researchers assess the quality of the model. However, CFA has higher data requirements, including larger sample sizes, and it is very sensitive to model specification.</p>
+
+<h3>Comparison Between EFA and CFA</h3>
+<p>EFA and CFA differ significantly in their methodology and are suited for different stages and purposes of research. EFA is used for theoretical exploration and preliminary studies, while CFA is used for theoretical validation and model comparison. The choice of the appropriate factor analysis method depends on the research purpose, data characteristics, and theoretical foundation. In some cases, researchers may use both EFA and CFA in sequence—first using EFA to explore the data structure, and then using CFA to validate the theoretical model. This article will demonstrate, through case studies, how to choose and combine EFA and CFA based on the specific research context.</p>
 
 <p>If the psychological behavior variables are unclear and there is little knowledge about the factors underlying the observed data, EFA can help simplify the data and understand the specific factors included in the psychological behavior variable. If the researcher has already hypothesized the format and structure of the psychological behavior variable based on theory or prior research, CFA can be used to determine whether the observed data truly measure these factors and whether the existing theoretical hypotheses can be validated.</p>
 
