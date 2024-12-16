@@ -72,3 +72,8 @@ OUTPUT: STANDARDIZED MOD; ! Output standardized values and modification indices
 
 PLOT: TYPE IS PLOT2; ! Request scree plot
 </pre>
+<p>If you want to know more, I suggest you read the following articles and books:
+<br>Fabrigar, L. R., & Wegener, D. T. (2012). <i>Exploratory factor analysis</i>. Oxford University Press.
+<br>Fabrigar, L. R., Wegener, D. T., MacCallum, R. C., & Strahan, E. J. (1999). Evaluating the use of exploratory factor analysis in psychological research. <i>Psychological methods, 4</i>(3), 272.
+<br>Howard, M. C. (2016). A review of exploratory factor analysis decisions and overview of current practices: What we are doing and how can we improve?. <i>International journal of human-computer interaction, 32</i>(1), 51-62.
+<br>Watkins, M. W. (2018). Exploratory factor analysis: A guide to best practice. <i>Journal of black psychology, 44</i>(3), 219-246.
