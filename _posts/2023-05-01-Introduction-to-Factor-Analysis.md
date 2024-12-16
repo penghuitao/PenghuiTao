@@ -6,7 +6,7 @@ date:   2023-05-01 21:21:21 +0530
 categories: ["Factor Analysis"]
 ---
 
-
+<p>In this series, I will introduce factor analysis. To help you better understand the following articles, I will briefly introduce the basic knowledge of factor analysis. Similarly, if you have any questions, please feel free to contact me at any time.</p>
 <h2><strong>What is Factor Analysis</strong></h2>
 <h3><strong>Meaning</strong></h3>
 <p>Factor Analysis is a statistical technique that reduces multiple observable variables (i.e., observed variables) that describe an entity into a few unobservable variables (i.e., latent variables, also known as latent factors).</p>
@@ -53,3 +53,9 @@ categories: ["Factor Analysis"]
   <li>To explore and construct the structure of psychological constructs (EFA).</li>
   <li>To test the structural validity of psychological tests (CFA).</li>
 </ul>
+
+<p>If you want to know more, I suggest you read the following articles:
+<br>Kline, P. (2014). <i>An easy guide to factor analysis</i>. Routledge.
+<br>Pett, M. A., Lackey, N. R., & Sullivan, J. J. (2003). <i>Making sense of factor analysis: The use of factor analysis for instrument development in health care research</i>. sage.
+<br>Shrestha, N. (2021). Factor analysis as a tool for survey analysis. <i>American Journal of Applied Mathematics and Statistics, 9</i>(1), 4–11. https://doi.org/10.12691/ajams-9-1-2
+<br>Rummel, R. J. (1988). <i>Applied factor analysis</i>. Northwestern University Press.
