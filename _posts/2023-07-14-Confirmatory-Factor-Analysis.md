@@ -7,12 +7,12 @@ categories: ["Factor Analysis"]
 ---
 
 
-<h3>What is Confirmatory Factor Analysis (CFA)?</h3>
+<h2><strong>What is Confirmatory Factor Analysis (CFA)?</strong></h2>
 <p>Confirmatory Factor Analysis (CFA) is the opposite of Exploratory Factor Analysis (EFA). It involves defining specific factors or constructs of interest (e.g., loyalty, satisfaction) based on literature, and then using survey items to measure these constructs (e.g., loyalty could be measured by purchase frequency or willingness to recommend). The primary goal of CFA is to test whether the items indeed reflect the construct as hypothesized, making CFA a tool for confirming theoretical models.</p>
 
 <p>In CFA, each factor is related only to its own measurement items and not to the items of other factors. For example, when reporting a Structural Equation Model (SEM), each item is associated with only its corresponding factor, and no relationships are assumed between factors. This means that when drawing the CFA model, each item is clearly linked only to its own factor, with no correlations with items of other factors. This independence helps confirm whether the items accurately measure the predefined constructs.</p>
 
-<h3>How to Use Confirmatory Factor Analysis?</h3>
+<h2><strong>How to Use Confirmatory Factor Analysis?</strong></h2>
 
 <p><strong>1. Model Specification:</strong> Before performing CFA, it is essential to define the relationships between observed variables (items) and factors/latent variables, the relationships between the factors/latent variables themselves, and the relationships between error terms.</p>
 <p>This includes several questions:</p>
@@ -31,9 +31,9 @@ categories: ["Factor Analysis"]
 
 <p><strong>5. Model Modification:</strong> If the model does not fit the data well, it may need to be modified. Model modification should be guided by theoretical justification, not just software output.</p>
 
-<h3>How to Implement CFA in Mplus?</h3>
+<h2><strong>How to Implement CFA in Mplus?</strong></h2>
 
-<h4>1. First-Order CFA:</h4>
+<h3>1. First-Order CFA:</h3>
 <pre>
 TITLE: CFA;    
       ! This syntax file performs Confirmatory Factor Analysis
@@ -60,7 +60,7 @@ OUTPUT: SAMPSTAT STDYX MOD CINTERVAL;
         ! Output sample statistics, standardized values, modification indices, and parameter confidence intervals
 </pre>
 
-<h4>2. Second-Order CFA:</h4>
+<h3>2. Second-Order CFA:</h3>
 <pre>
 TITLE: CFA;    
 
@@ -79,4 +79,3 @@ MODEL: F1 BY x1 x4 x7 x10 x13 x16 x19 x22 x25 x28;
 
 OUTPUT: SAMPSTAT STDYX MOD CINTERVAL;
 </pre>
-
