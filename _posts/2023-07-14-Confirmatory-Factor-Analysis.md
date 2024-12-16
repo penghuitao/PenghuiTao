@@ -33,7 +33,7 @@ categories: ["Factor Analysis"]
 
 <h2><strong>How to Implement CFA in Mplus?</strong></h2>
 
-<h3>1. First-Order CFA:</h3>
+<h3><strong>1. First-Order CFA:</strong></h3>
 <pre>
 TITLE: CFA;    
       ! This syntax file performs Confirmatory Factor Analysis
@@ -60,7 +60,7 @@ OUTPUT: SAMPSTAT STDYX MOD CINTERVAL;
         ! Output sample statistics, standardized values, modification indices, and parameter confidence intervals
 </pre>
 
-<h3>2. Second-Order CFA:</h3>
+<h3><strong>2. Second-Order CFA:</strong></h3>
 <pre>
 TITLE: CFA;    
 
