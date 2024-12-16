@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hello!
-subtitle: My name is Penghui Tao
+subtitle: My name is Penghui Tao!
 sitemap:
   priority: 0.9
 ---
@@ -9,7 +9,7 @@ sitemap:
 <img src="{{ '/assets/img/penghui.png' | prepend: site.baseurl }}" id="about-img" style="width: 30%; max-width: 800px;">
 
 <div id="describe-text">
-	<p align="left">I am Penghui Tao, an M.A. student in the School of Journalism and Communication at Chongqing University. I am honored to be a recipient of the 2024 <b>Chinese National Scholarship</b>. My research is dedicated to understanding the <b>emotional and cognitive processes individuals experience when confronting climate change risks</b>. I aim to conduct theory-driven, evidence-based research that not only explores how to mitigate the negative impacts of climate change but also fosters psychological resilience and promotes human well-being. I am proud to have had my research published in <a href="https://doi.org/10.1007/s12144-024-06864-y"><b><i>Current Psychology</i></b></a>. Methodologically, my approach is rooted in <b>quantitative research</b>, using techniques such as <b>web-based experiments</b>, <b>longitudinal panel surveys</b>, and <b>advanced statistical analyses</b> (e.g., <b>exploratory graph analysis</b>, <b>longitudinal panel analysis</b>, and <b>structural equation modeling</b>) to draw meaningful causal inferences. I grew up in a beautiful town surrounded by one of China’s vast national forest parks, which ignited my deep passion for nature. When I'm not researching, I enjoy activities like <b>hiking</b>, <b>meditating</b>, and <b>spending time with animals</b>. My profile picture features a red panda <i>(Ailurus fulgens)</i>, an animal I find utterly adorable! Since red pandas are a protected species in China, I can’t have one as a pet, but I share my home with a dog, a cat, and a parrot, each of whom brings joy to my life.</p>
+	<p align="left">I am Penghui, an M.A. student in the School of Journalism and Communication at Chongqing University. I am honored to be a recipient of the 2024 <b>Chinese National Scholarship</b>. My research is dedicated to understanding the <b>emotional and cognitive processes individuals experience when confronting climate change risks</b>. I aim to conduct theory-driven, evidence-based research that not only explores how to mitigate the negative impacts of climate change but also fosters psychological resilience and promotes human well-being. I am proud to have had my research published in <a href="https://doi.org/10.1007/s12144-024-06864-y"><b><i>Current Psychology</i></b></a>. Methodologically, my approach is rooted in <b>quantitative research</b>, using techniques such as <b>web-based experiments</b>, <b>longitudinal panel surveys</b>, and <b>advanced statistical analyses</b> (e.g., <b>exploratory graph analysis</b>, <b>longitudinal panel analysis</b>, and <b>structural equation modeling</b>) to draw meaningful causal inferences. I grew up in a beautiful town surrounded by one of China’s vast national forest parks, which ignited my deep passion for nature. When I'm not researching, I enjoy activities like <b>hiking</b>, <b>meditating</b>, and <b>spending time with animals</b>. My profile picture features a red panda <i>(Ailurus fulgens)</i>, an animal I find utterly adorable! Since red pandas are a protected species in China, I can’t have one as a pet, but I share my home with a dog, a cat, and a parrot, each of whom brings joy to my life.</p>
 
 <h1>News and Updates</h1>
 
