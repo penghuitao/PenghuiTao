@@ -79,3 +79,8 @@ MODEL: F1 BY x1 x4 x7 x10 x13 x16 x19 x22 x25 x28;
 
 OUTPUT: SAMPSTAT STDYX MOD CINTERVAL;
 </pre>
+
+<p>If you want to know more, I suggest you read the following articles and books:
+<br>Harrington, D. (2009). <i>Confirmatory factor analysis</i>. Oxford university press.
+<br>Hurley, A. E., Scandura, T. A., Schriesheim, C. A., Brannick, M. T., Seers, A., Vandenberg, R. J., & Williams, L. J. (1997). Exploratory and confirmatory factor analysis: Guidelines, issues, and alternatives. <i>Journal of organizational behavior</i>, 667-683.
+<br>Orçan, F. (2018). Exploratory and confirmatory factor analysis: which one to use first?. <i>Journal of Measurement and Evaluation in Education and Psychology, 9</i>(4), 414-421.
