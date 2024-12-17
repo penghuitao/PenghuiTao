@@ -31,20 +31,9 @@ GPA: 3.67/4.00
 
 **Tao, P., & Ma, X.** (August 7-11, 2024). Clarifying relationships between transilience and efficacy constructs in climate change context: Evidence for independent and overlapping contributions. Presented at the *107th Annual Conference of the Association for Education in Journalism and Mass Communication*, Philadelphia, U.S.
 
-### ONGOING RESEARCH
-
-**With great power comes great risk: A three-wave longitudinal study of the Risk Perception Attitude (RPA) framework in China**  
-A longitudinal study focusing on the Risk Perception Attitude (RPA) framework. <span style="float: right; ">Ongoing</span>
-
-**Untangling the impact of anxiety and worry on information seeking and avoidance in the context of climate change: A four-wave longitudinal study in China**  
-A study examining how anxiety and worry influence individuals’ information-seeking behaviors related to climate change, based on a four-wave longitudinal survey. <span style="float: right; ">Wave 1 and 2 completed: n=4186, n=2720</span>
-
-**Can procrastination save the world? Active procrastination motivates pro-environmental behaviors through resilience**  
-Three experimental studies and a longitudinal study examining the role of active procrastination in fostering pro-environmental behaviors through resilience. <span style="float: right; ">Ongoing</span>
-
 ### HONORS & FELLOWSHIPS
 
-- **Chinese National Scholarship** (2024) – Ministry of Education of China (Highest level scholarship in China)
+- **Chinese National Scholarship** (2024) – Ministry of Education of China
 - **First Class Academic Scholarship** (2024, 2023, 2022) – Chongqing University
 - **Outstanding Graduate of Hunan Province** (2022) – Education Department of Hunan Province
 - **Merit Student** (2021, 2020, 2019) – Xiangtan University
@@ -71,6 +60,9 @@ Undergraduate Course
 
 **Radio and Television Commentary** – Chongqing University (Autumn 2023)  
 Undergraduate Course 
+
+**Interviewing and Writing for Journalism** – Chongqing University (Autumn 2022)
+Undergraduate Course
 
 ### SERVICES
 
