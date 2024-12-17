@@ -7,20 +7,20 @@ categories: ["Factor Analysis"]
 ---
 
 
-<h2><b>If You Just Want to Learn How to Use ESEM</b></h2>
+<h2><strong>If You Just Want to Learn How to Use ESEM</strong></h2>
 <p>I strongly recommend that you watch this video: <a href="https://www.youtube.com/watch?v=yK_myOYNi-o">https://www.youtube.com/watch?v=yK_myOYNi-o</a><br>
 It will quickly help you get started with ESEM.</p>
 <p>Additionally, I highly suggest you read this paper:  
 Van Zyl, L. E., & Klooster, P. M. T. (2022). Exploratory Structural Equation Modeling: Practical guidelines and tutorial with a convenient online tool for MPlus. <i>Frontiers in Psychiatry, 12.</i> <a href="https://doi.org/10.3389/fpsyt.2021.795672">https://doi.org/10.3389/fpsyt.2021.795672</a></p>
 
-<h2><b>What is ESEM?</b></h2>
+<h2><strong>What is ESEM?</strong></h2>
 <p>Traditional EFA is mainly used to explore the factor structure of a measurement tool or a concept, while CFA is used to validate an existing theoretical factor structure and provide a measurement model for latent variables. ESEM combines the functionalities of both EFA and CFA, including: exploring factor structures, validating factor structures, and analyzing relationships between latent variables. It is important to note that ESEM (Exploratory Structural Equation Modeling) is not the same as EFA; ESEM is a combination of EFA and SEM. The introduction of ESEM primarily aims to address the strong assumptions in the measurement model of SEM.</p>
 
 <p>In traditional SEM, the measurement model consists of multiple CFA models, each assuming no cross-loadings. However, this assumption is often too strong and does not hold in many cases, where a single indicator may have significant loadings on multiple factors. The traditional view is to remove such indicators before conducting SEM, but the current view is that researchers should not focus too much on the specification of the measurement model, but rather shift the focus to the structural model, maximizing the precision of estimating structural coefficients.</p>
 
 <p>It is also important to note that the measurement model in ESEM is not purely EFA because the number of factors must be specified in advance, but the relationships between factors and indicators are not predefined. In summary, ESEM has two key benefits: it avoids mis-specification of the measurement model and provides more precise estimates of structural coefficients. In practical research, it is recommended that researchers compare the results of ESEM and SEM to determine if they yield different conclusions.</p>
 
-<h2><b>ESEM Factor Analysis Steps</b></h2>
+<h2><strong>ESEM Factor Analysis Steps</strong></h2>
 <ol>
   <li>Model specification</li>
   <li>Factor rotation</li>
@@ -29,7 +29,7 @@ Van Zyl, L. E., & Klooster, P. M. T. (2022). Exploratory Structural Equation Mod
   <li>Interpretation of the best-fitting model</li>
 </ol>
 
-<h2><b>How to Implement ESEM in Mplus</b></h2>
+<h2><strong>How to Implement ESEM in Mplus</strong></h2>
 <p>Please note the example code provided below, which includes three cases. However, I strongly recommend that you use the <strong>ESEM code generator for Mplus</strong> (<a href="https://www.surveyhost.co.za/esem/">https://www.surveyhost.co.za/esem/</a>). This is an extremely powerful tool that automatically generates ESEM, Bi-factor ESEM, ESEM within CFA, and Hierarchical ESEM code when you input the relevant variables from your study.</p>
 
 <h3>Example 1: Basic ESEM Model</h3>
