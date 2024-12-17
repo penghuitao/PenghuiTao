@@ -25,11 +25,11 @@ categories: ["Network Analysis"]
 
 <h2><strong>How to Implement It in R?</strong></h2>
   <li>First, you need to install the <strong>EGAnet</strong> package in R. You can search for "EGAnet" directly in R:</li>
-  <img src="{{ '/assets/img/penghui.png' | prepend: site.baseurl }}" id="about-img" style="width: 30%; max-width: 800px;">
+  <img src="{{ '/assets/img/20240123/EGA1.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
   <li>Then, read through the documentation provided by the authors. You will find that using EGA is quite simple. Here is an image showing the most basic form of EGA:</li>
-  <img src="{{ '/assets/img/penghui.png' | prepend: site.baseurl }}" id="about-img" style="width: 30%; max-width: 800px;">
+  <img src="{{ '/assets/img/20240123/EGA2.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
   <li>However, I recommend using bootstrap EGA directly, as it offers more advantages:</li>
-  <img src="{{ '/assets/img/penghui.png' | prepend: site.baseurl }}" id="about-img" style="width: 30%; max-width: 800px;">
+  <img src="{{ '/assets/img/20240123/EGA3.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
   <li>Finally, if you follow the steps correctly, you will obtain text information and a network graph with dimensional information:</li>
-  <img src="{{ '/assets/img/penghui.png' | prepend: site.baseurl }}" id="about-img" style="width: 30%; max-width: 800px;">
-  <img src="{{ '/assets/img/penghui.png' | prepend: site.baseurl }}" id="about-img" style="width: 30%; max-width: 800px;">
+  <img src="{{ '/assets/img/20240123/EGA4.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
+  <img src="{{ '/assets/img/20240123/EGA5.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
