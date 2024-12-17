@@ -24,9 +24,12 @@ categories: ["Network Analysis"]
 <p>As a result, Cosemans et al. (2022) recommend EGA as the preferred method for estimating dimensions in continuous data.</p>
 
 <h2><strong>How to Implement It in R?</strong></h2>
-  <li>First, you need to install the <strong>EGAnet</strong> package in R. You can search for "EGAnet" directly in R.</li>
+  <li>First, you need to install the <strong>EGAnet</strong> package in R. You can search for "EGAnet" directly in R:</li>
+  <img src="{{ '/assets/img/penghui.png' | prepend: site.baseurl }}" id="about-img" style="width: 30%; max-width: 800px;">
   <li>Then, read through the documentation provided by the authors. You will find that using EGA is quite simple. Here is an image showing the most basic form of EGA:</li>
-  <p><em>(Insert image of basic EGA here)</em></p>
-  <li>However, I recommend using bootstrap EGA directly, as it offers more advantages.</li>
-  <li>Finally, if you follow the steps correctly, you will obtain text information and a network graph with dimensional information.</li>
-</ol>
+  <img src="{{ '/assets/img/penghui.png' | prepend: site.baseurl }}" id="about-img" style="width: 30%; max-width: 800px;">
+  <li>However, I recommend using bootstrap EGA directly, as it offers more advantages:</li>
+  <img src="{{ '/assets/img/penghui.png' | prepend: site.baseurl }}" id="about-img" style="width: 30%; max-width: 800px;">
+  <li>Finally, if you follow the steps correctly, you will obtain text information and a network graph with dimensional information:</li>
+  <img src="{{ '/assets/img/penghui.png' | prepend: site.baseurl }}" id="about-img" style="width: 30%; max-width: 800px;">
+  <img src="{{ '/assets/img/penghui.png' | prepend: site.baseurl }}" id="about-img" style="width: 30%; max-width: 800px;">
