@@ -48,7 +48,7 @@ PLOT: TYPE IS PLOT2; ! Request scree plot
 </pre>
 
 <h2><strong>Result Interpretation</strong></h2>
-<img src="{{ '/assets/img/20240123/Parallel_Analysis.png' | prepend: site.baseurl }}" id="about-img" style="width: 30%; max-width: 800px;">
+<img src="{{ '/assets/img/20240123/Parallel_Analysis.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
 <p>The eigenvalues of the three factors in the real data fall on the average eigenvalue curve of the random data matrix, so we retain these three factors.</p>
 
 <p>If you want to know more, I suggest you read the following articles:
