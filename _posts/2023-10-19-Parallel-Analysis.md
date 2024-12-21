@@ -50,3 +50,7 @@ PLOT: TYPE IS PLOT2; ! Request scree plot
 <h2><strong>Result Interpretation</strong></h2>
 <img src="{{ '/assets/img/20240123/Parallel_Analysis.png' | prepend: site.baseurl }}" id="about-img" style="width: 30%; max-width: 800px;">
 <p>The eigenvalues of the three factors in the real data fall on the average eigenvalue curve of the random data matrix, so we retain these three factors.</p>
+
+<p>If you want to know more, I suggest you read the following articles and books:
+<br>Hayton, J. C., Allen, D. G., & Scarpello, V. (2004). Factor Retention Decisions in Exploratory Factor Analysis: a Tutorial on Parallel Analysis. <i>Organizational Research Methods, 7</i>(2), 191–205. https://doi.org/10.1177/1094428104263675
+<br>O’connor, B. P. (2000). SPSS and SAS programs for determining the number of components using parallel analysis and Velicer’s MAP test. <i>Behavior Research Methods Instruments &Amp Computers, 32</i>(3), 396–402. https://doi.org/10.3758/bf03200807
