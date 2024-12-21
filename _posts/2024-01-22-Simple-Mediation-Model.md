@@ -18,6 +18,8 @@ categories: ["Mediation Analysis"]
 <h2><strong>Simple Mediation Model</strong></h2>
 <p>The simple mediation model, shown below, involves an independent variable X, a mediator variable M, and a dependent variable Y. X predicts both M and Y, and M predicts Y. When we construct and test this model in some data analysis software, we can determine whether there is such a relationship between the three variables and whether M mediates the effect of X on Y.</p>
 
+<img src="{{ '/assets/img/20240123/SM1.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
+
 <h2><strong>How to Construct This Model in Mplus?</strong></h2>
 <p>To construct a simple mediation model in Mplus, the key is to express the corresponding paths in the model using statements in the Model section, as shown in the following syntax:</p>
 <pre>
@@ -63,9 +65,13 @@ OUTPUT: SAMPSTAT STDYX MOD CINTERVAL;
 
 <ul>
   <li><strong>Model Fit:</strong> Model fit refers to how well the constructed model aligns with the collected data. A good model fit indicates that constructing this model for the data is appropriate and useful for the analysis. Since this is a saturated model, model fit is not necessary to check.</li>
-  <li><strong>Path Coefficients and Significance:</strong> The following two figures show the non-standardized path coefficients above and the standardized path coefficients below. From the figure, we can see that the coefficient for the path X → Y is 0.173 and significant at the 0.001 level. The coefficient for the path M → Y is 0.180 and significant at the 0.001 level. The coefficient for the path X → M is 0.348 and significant at the 0.001 level. Thus, X significantly predicts both M and Y, and M significantly predicts Y.</li>
+<img src="{{ '/assets/img/20240123/SM2.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
+  <li><strong>Path Coefficients and Significance:</strong> The following figure show the non-standardized path coefficients above and the standardized path coefficients below. From the figure, we can see that the coefficient for the path X → Y is 0.173 and significant at the 0.001 level. The coefficient for the path M → Y is 0.180 and significant at the 0.001 level. The coefficient for the path X → M is 0.348 and significant at the 0.001 level. Thus, X significantly predicts both M and Y, and M significantly predicts Y.</li>
+<img src="{{ '/assets/img/20240123/SM3.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
   <li><strong>Mediation Effect and Significance:</strong> The following figure shows the non-standardized and standardized mediation effects and their significance. The non-standardized mediation effect is 0.063, and the standardized effect is 0.099. To test the significance of the mediation effect, we use the Bootstrap method. If the 95% confidence interval for the mediation effect does not include 0, the mediation effect is considered significant; otherwise, it is not. From the confidence interval, we see that the non-standardized mediation effect's 95% confidence interval is 0.043–0.082, and the standardized effect's 95% confidence interval is 0.069–0.129, both of which do not include 0, indicating that the mediation effect is significant.</li>
+<img src="{{ '/assets/img/20240123/SM4.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
   <li><strong>Model Diagram:</strong> In Mplus, you can open the output file, go to the menu bar, select "Diagram," and click on "View diagram" to obtain the model diagram shown below.</li>
+<img src="{{ '/assets/img/20240123/SM5.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
 </ul>
 
 <h2><strong>Latent Variable Simple Mediation Model</strong></h2>
