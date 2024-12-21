@@ -38,7 +38,7 @@ sitemap:
 
   <p><b>[May 5, 2024]</b> Honored to receive research funding <b>¥10,000 (approximately $1,400)</b> from <b>Chongqing Municipality’s Graduate Research Innovation Project</b>!</p>
 
-  <p><b>[Mar 21, 2024]</b> Submitted a co-authored paper to <b>AEJMC 2024</b> on the distinctiveness between transilience and efficacy constructs. Fingers crossed!</p>
+  <p><b>[Mar 21, 2024]</b> Submitted a co-authored paper to <b>AEJMC 2024 Annual Conference</b> on the distinctiveness between transilience and efficacy constructs. Fingers crossed!</p>
 
   <p><b>[Feb 23, 2024]</b> Submitted my <b>first-ever research</b> paper for peer review to a psychology journal. Wish me luck!</p>
 </div>
