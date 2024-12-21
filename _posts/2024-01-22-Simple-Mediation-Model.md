@@ -16,10 +16,10 @@ categories: ["Mediation Analysis"]
 </ul>
 <p>I also explained that statistical mediation analysis cannot support any mediation hypothesis. However, as a basic method of mediation analysis, statistical mediation analysis can provide clues for mediation relationships and direct the experimental testing of mediation. Therefore, I will introduce the three most commonly used models, starting with the simple mediation model.</p>
 
-<h3>Simple Mediation Model</h3>
+<h2><strong>Simple Mediation Model</strong></h2>
 <p>The simple mediation model, shown below, involves an independent variable X, a mediator variable M, and a dependent variable Y. X predicts both M and Y, and M predicts Y. When we construct and test this model in some data analysis software, we can determine whether there is such a relationship between the three variables and whether M mediates the effect of X on Y.</p>
 
-<h4>How to Construct This Model in Mplus?</h4>
+<h2><strong>How to Construct This Model in Mplus?</strong></h2>
 <p>To construct a simple mediation model in Mplus, the key is to express the corresponding paths in the model using statements in the Model section, as shown in the following syntax:</p>
 <pre>
 TITLE: MEDIATION MODEL;       ! TITLE is optional and can be used to label the content or purpose of the statement
@@ -59,7 +59,7 @@ MODEL INDIRECT: Y IND M X; ! Mediation path: X → M → Y
 OUTPUT: SAMPSTAT STDYX MOD CINTERVAL;
 </pre>
 
-<h4>Interpretation of Results:</h4>
+<h2><strong>Interpretation of Results:</strong></h2>
 <p>After running the above code in Mplus, you will obtain the output file (of the .out type). Key areas to focus on include model fit, path coefficients and significance, as well as mediation effects and their significance.</p>
 
 <ul>
@@ -69,7 +69,7 @@ OUTPUT: SAMPSTAT STDYX MOD CINTERVAL;
   <li><strong>Model Diagram:</strong> In Mplus, you can open the output file, go to the menu bar, select "Diagram," and click on "View diagram" to obtain the model diagram shown below.</li>
 </ul>
 
-<h3>Latent Variable Simple Mediation Model</h3>
+<h2><strong>Latent Variable Simple Mediation Model</strong></h2>
 <p>In addition to the simple mediation model described above, you may encounter models in the literature that look similar but use latent variables instead of observed variables. Latent variables, which cannot be directly observed, need to be estimated using indicators from observed variables. For example, the scores on each question in a scale are observable, so each question is an observed variable. The latent trait being measured by the scale is not directly observable, but it can be represented by the scale's average or total score.</p>
 
 <p>Below is the Mplus syntax for a latent variable simple mediation model:</p>
