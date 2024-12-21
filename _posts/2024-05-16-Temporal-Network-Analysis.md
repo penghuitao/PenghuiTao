@@ -2,7 +2,7 @@
 layout: page
 title:  "Temporal Network Analysis"
 subtitle: ""
-date:   2024-01-23 21:21:21 +0530
+date:   2024-05-16 21:21:21 +0530
 categories: ["Longitudinal Analysis"]
 ---
 
