@@ -7,8 +7,7 @@ categories: ["Mediation Analysis"]
 ---
 
 
-<h2><strong>Manipulation-of-Mediation-as-a-Moderator</strong></h2>
-<p>In the <strong>Manipulation-of-Mediation-as-a-Moderator</strong> (MMM) post, I introduced the requirements for supporting mediation hypotheses:</p>
+<p>In the <strong>Manipulation-of-Mediation-as-a-Moderator</strong> (MMM) post, I introduced the requirements for supporting mediation hypotheses. Specifically, in order to support that the mediating variable M mediates the relationship from X to Y, we need to rule out the following assumptions:</p>
 <ul>
   <li><strong>No Effect on Mediator:</strong> Changes in X don't lead to changes in M.</li>
   <li><strong>No Effect on Outcome:</strong> Changes in M don't affect Y.</li>
