@@ -9,6 +9,8 @@ categories: ["Mediation Analysis"]
 
 <p>In addition to the parallel mediation model, another common model with two mediator variables is the chain mediation model. In this model, there is a temporal sequence between the two mediator variables. As shown in the figure below, the mediator variable M1 comes first, followed by M2.</p>
 
+<img src="{{ '/assets/img/20240123/CM1.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
+
 <h2><strong>Observed Variable Chain Mediation Model in Mplus</strong></h2>
 <pre>
 TITLE: MEDIATION MODEL; 
