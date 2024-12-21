@@ -1,7 +1,14 @@
+---
+layout: page
+title:  "Parallel Mediation Model"
+subtitle: ""
+date:   2024-02-16 22:00:21 +0530
+categories: ["Mediation Analysis"]
+---
 
 <p>In addition to the simple mediation model, one of the common models with two mediator variables is the parallel mediation model. In this model, it is assumed that there is no temporal order between the two mediator variables, as shown in the figure below.</p>
 
-<h4>Observed Variable Parallel Mediation Model in Mplus</h4>
+<h2><strong>Observed Variable Parallel Mediation Model in Mplus</strong></h2>
 <pre>
 TITLE: MEDIATION MODEL; 
 
@@ -21,7 +28,7 @@ MODEL: Y M1 M2 ON X; ! Paths from X to M1, M2, and Y
 OUTPUT: SAMPSTAT STDYX MOD CINTERVAL; ! Output sample statistics, standardized values, modification indices, confidence intervals
 </pre>
 
-<h4>Latent Variable Parallel Mediation Model in Mplus</h4>
+<h2><strong>Latent Variable Parallel Mediation Model in Mplus</strong></h2>
 <pre>
 TITLE: MEDIATION MODEL;
 
@@ -43,7 +50,7 @@ MODEL: A BY X1-X4;
 OUTPUT: SAMPSTAT STDYX MOD CINTERVAL; ! Output sample statistics, standardized values, modification indices, confidence intervals
 </pre>
 
-<h3>Mediation Effect Testing</h3>
+<h2><strong>Mediation Effect Testing</strong></h2>
 <p>For the observed variable model, the syntax for testing the mediation effect using the Bootstrap method is as follows. The same approach applies to latent variable models, where the BOOTSTRAP method is used in the ANALYSIS section and the mediation paths to be tested are specified in the MODEL INDIRECT section.</p>
 
 <pre>
@@ -67,7 +74,7 @@ MODEL INDIRECT: Y IND M1 X; ! Mediation effect of X -> M1 -> Y
 OUTPUT: SAMPSTAT STDYX MOD CINTERVAL; ! Output sample statistics, standardized values, modification indices, confidence intervals
 </pre>
 
-<h3>Interpretation of Results</h3>
+<h2><strong>Interpretation of Results</strong></h2>
 <ul>
   <li><strong>Model Fit:</strong> Model fit can be assessed by selecting fit indices and standards from the literature to evaluate the adequacy of the model's fit to the data.</li>
   <li><strong>Path Coefficients and Significance:</strong> The path coefficients and their significance should be reviewed to determine the strength and significance of the relationships.</li>
