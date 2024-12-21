@@ -2,7 +2,7 @@
 layout: page
 title:  "Measurement Invariance: Longitudinal Confirmatory Factor Analysis"
 subtitle: ""
-date:   2024-02-16 21:21:21 +0530
+date:   2024-07-30 21:21:21 +0530
 categories: ["Longitudinal Analysis"]
 ---
 
