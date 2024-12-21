@@ -8,6 +8,8 @@ categories: ["Mediation Analysis"]
 
 <p>In addition to the simple mediation model, one of the common models with two mediator variables is the parallel mediation model. In this model, it is assumed that there is no temporal order between the two mediator variables, as shown in the figure below.</p>
 
+<img src="{{ '/assets/img/20240123/PM1.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
+
 <h2><strong>Observed Variable Parallel Mediation Model in Mplus</strong></h2>
 <pre>
 TITLE: MEDIATION MODEL; 
@@ -77,6 +79,15 @@ OUTPUT: SAMPSTAT STDYX MOD CINTERVAL; ! Output sample statistics, standardized v
 <h2><strong>Interpretation of Results</strong></h2>
 <ul>
   <li><strong>Model Fit:</strong> Model fit can be assessed by selecting fit indices and standards from the literature to evaluate the adequacy of the model's fit to the data.</li>
+
+<img src="{{ '/assets/img/20240123/PM3.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
+
   <li><strong>Path Coefficients and Significance:</strong> The path coefficients and their significance should be reviewed to determine the strength and significance of the relationships.</li>
+
+<img src="{{ '/assets/img/20240123/PM4.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
+
   <li><strong>Mediation Effect and Significance:</strong> The mediation effects and their significance should be examined to determine whether mediation exists and whether the effects are statistically significant.</li>
+
+<img src="{{ '/assets/img/20240123/PM5.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
+
 </ul>
