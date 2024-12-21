@@ -16,11 +16,13 @@ categories: ["Factor Analysis"]
 
 <p>Clearly, the logic behind this analysis is easy to understand and quite convincing.</p>
 
-<p>So why do I say this method isn’t very useful? Because although the theoretical basis of Parallel Analysis is sound, its practical value is limited. First, the eigenvalue >1 criterion and the scree plot have already done a good job, so Parallel Analysis doesn’t contribute much more. Secondly, the results of Parallel Analysis are unstable. The larger the sample size and the fewer the measured variables, the fewer the factors Parallel Analysis suggests. Thirdly, it doesn’t accurately estimate the number of factors. In general, Parallel Analysis tends to suggest too many factors, so its recommended number of factors is often taken as an upper limit. The most important point, however, is that the core requirement of factor analysis is the interpretability of the factors. Factors that cannot be interpreted professionally cannot be retained.</p>
+<h2><strong>So why do I say this method isn’t very useful? </strong></h2>
+
+<p>Because although the theoretical basis of Parallel Analysis is sound, its practical value is limited. First, the eigenvalue >1 criterion and the scree plot have already done a good job, so Parallel Analysis doesn’t contribute much more. Secondly, the results of Parallel Analysis are unstable. The larger the sample size and the fewer the measured variables, the fewer the factors Parallel Analysis suggests. Thirdly, it doesn’t accurately estimate the number of factors. In general, Parallel Analysis tends to suggest too many factors, so its recommended number of factors is often taken as an upper limit. The most important point, however, is that the core requirement of factor analysis is the interpretability of the factors. Factors that cannot be interpreted professionally cannot be retained.</p>
 
 <p>However, let’s still go over its implementation steps and Mplus code.</p>
 
-<h3>Steps of Parallel Analysis</h3>
+<h2><strong>Steps of Parallel Analysis</strong></h2>
 <ol>
   <li>Generate a random data matrix that has the same number of variables and sample size as the real data.</li>
   <li>Calculate the eigenvalues of this random data matrix and compute the average eigenvalue.</li>
@@ -29,7 +31,7 @@ categories: ["Factor Analysis"]
 
 <p>If the eigenvalues of the real data are above the random matrix’s average eigenvalue curve, those factors should be retained; otherwise, they should be discarded. Simply put, we generate 100 random matrices with the same number of variables and cases as our actual data, then compare the average eigenvalues of these random matrices to the eigenvalues of our actual data.</p>
 
-<h3>Mplus Code for Parallel Analysis</h3>
+<h2><strong>Mplus Code for Parallel Analysis</strong></h2>
 <pre>
 TITLE: PARALLEL ANALYSIS;
 
@@ -45,5 +47,5 @@ ANALYSIS: PARALLEL = 100; ! Number of random matrices to generate (default is 10
 PLOT: TYPE IS PLOT2; ! Request scree plot
 </pre>
 
-<h3>Result Interpretation</h3>
+<h2><strong>Result Interpretation</strong></h2>
 <p>The eigenvalues of the three factors in the real data fall on the average eigenvalue curve of the random data matrix, so we retain these three factors.</p>
