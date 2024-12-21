@@ -112,3 +112,18 @@ MODEL INDIRECT: Y IND X; ! Computes indirect effects of X through M1 on Y
 
 OUTPUT: SAMPSTAT STDYX MOD CINTERVAL; ! Output sample statistics, standardized values, modification indices, confidence intervals
 </pre>
+<h2><strong>Interpretation of Results</strong></h2>
+<ul>
+  <li><strong>Model Fit:</strong> Model fit can be assessed by selecting fit indices and standards from the literature to evaluate the adequacy of the model's fit to the data.</li>
+
+<img src="{{ '/assets/img/20240123/CM2.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
+
+  <li><strong>Path Coefficients and Significance:</strong> The path coefficients and their significance should be reviewed to determine the strength and significance of the relationships.</li>
+
+<img src="{{ '/assets/img/20240123/CM3.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
+
+  <li><strong>Mediation Effect and Significance:</strong> The mediation effects and their significance should be examined to determine whether mediation exists and whether the effects are statistically significant.</li>
+
+<img src="{{ '/assets/img/20240123/CM4.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
+
+</ul>
