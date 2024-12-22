@@ -7,7 +7,7 @@ categories: ["Mediation Analysis"]
 ---
 
 
-<p>In my last blog, I introduced the parallel mediator model. In addition to the parallel mediation model, another common model with two mediator variables is the chain mediation model. In this model, there is a temporal sequence between the two mediator variables. As shown in the figure below, the mediator variable M1 comes first, followed by M2. <b>As before, I'd like to emphasize that if you want to provide a strong mediation test, I suggest you use an experimental design</b></p>
+<p>In my last blog, I introduced the parallel mediator model. In addition to the parallel mediation model, another common model with two mediator variables is the chain mediation model. In this model, there is a temporal sequence between the two mediator variables. As shown in the figure below, the mediator variable M1 comes first, followed by M2. <b>In addition, I'd like to emphasize that if you want to provide a strong mediation test, I suggest you use an experimental design</b>.</p>
 
 <img src="{{ '/assets/img/20240123/CM1.jpg' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
 
@@ -129,7 +129,7 @@ OUTPUT: SAMPSTAT STDYX MOD CINTERVAL; ! Output sample statistics, standardized v
 
 </ul>
 <p>If you want to learn more, I recommend reading the following articles, all of which use the chain mediation model:
-<br>Chen, K., Huang, L., & Ye, Y. (2022). Research on the relationship between wellness tourism experiencescape and revisit intention: a chain mediation model. <i>International Journal of Contemporary Hospitality Management, 35</i>(3), 893–918. https://doi.org/10.1108/ijchm-01-2022-0050
-<br>Gori, A., Topino, E., & Di Fabio, A. (2020). The protective role of life satisfaction, coping strategies and defense mechanisms on perceived stress due to COVID-19 emergency: A chained mediation model. <i>PLoS ONE, 15</i>(11), e0242402. https://doi.org/10.1371/journal.pone.0242402
-<br>Wang, C., Chudzicka-Czupała, A., Tee, M. L., Núñez, M. I. L., Tripp, C., Fardin, M. A., Habib, H. A., Tran, B. X., Adamus, K., Anlacan, J., García, M. E. A., Grabowski, D., Hussain, S., Hoang, M. T., Hetnał, M., Le, X. T., Ma, W., Pham, H. Q., Reyes, P. W. C., . . . Sears, S. F. (2021). A chain mediation model on COVID-19 symptoms and mental health outcomes in Americans, Asians and Europeans. <i>Scientific Reports, 11</i>(1). https://doi.org/10.1038/s41598-021-85943-7
+<br>Chen, K., Huang, L., & Ye, Y. (2022). Research on the relationship between wellness tourism experiencescape and revisit intention: a chain mediation model. <i>International Journal of Contemporary Hospitality Management, 35</i>(3), 893–918. <a href="https://doi.org/10.1108/ijchm-01-2022-0050">https://doi.org/10.1108/ijchm-01-2022-0050</a>
+<br>Gori, A., Topino, E., & Di Fabio, A. (2020). The protective role of life satisfaction, coping strategies and defense mechanisms on perceived stress due to COVID-19 emergency: A chained mediation model. <i>PLoS ONE, 15</i>(11), e0242402. <a href="https://doi.org/10.1371/journal.pone.0242402">https://doi.org/10.1371/journal.pone.02424020</a>
+<br>Wang, C., Chudzicka-Czupała, A., Tee, M. L., Núñez, M. I. L., Tripp, C., Fardin, M. A., Habib, H. A., Tran, B. X., Adamus, K., Anlacan, J., García, M. E. A., Grabowski, D., Hussain, S., Hoang, M. T., Hetnał, M., Le, X. T., Ma, W., Pham, H. Q., Reyes, P. W. C., . . . Sears, S. F. (2021). A chain mediation model on COVID-19 symptoms and mental health outcomes in Americans, Asians and Europeans. <i>Scientific Reports, 11</i>(1). <a href="https://doi.org/10.1038/s41598-021-85943-7">https://doi.org/10.1038/s41598-021-85943-7</a>
 <br>If you have any questions, feel free to email me.</p>
