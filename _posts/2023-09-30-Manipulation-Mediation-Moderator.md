@@ -107,5 +107,10 @@ categories: ["Mediation Analysis"]
   <li><strong>Analyze Interactions:</strong> Determine if the manipulation of stress levels moderates the effect of curriculum difficulty on performance, thereby supporting the mediation hypothesis.</li>
 </ul>
 
-<h2><strong>Conclusion</strong></h2>
 <p>Manipulation-o-Mediation-as-a-Modeler (MMM) represents a significant advancement in experimental mediation analysis. By systematically addressing the limitations of existing designs and ensuring rigorous testing of mediation hypotheses through controlled manipulations and comprehensive statistical analyses, MMM facilitates more accurate and reliable inferences about the mechanisms driving observed relationships. If you're committed to uncovering the intricate pathways through which variables interact, MMM is undoubtedly a methodology worth integrating into your research toolkit.</p>
+
+<p>If you want to learn more, I recommend reading the following articles:
+<br>Feng, Z., & Dang, J. (2024). To avoid disconnection or approach connection: Loneliness predicts social robot anthropomorphism via different social motivations in the UK and China. <i>Personality and Individual Differences, 235</i>, 112979. <a href="https://doi.org/10.1016/j.paid.2024.112979">https://doi.org/10.1016/j.paid.2024.112979</a>
+<br>Ge, X. (2023). Experimentally manipulating mediating processes: Why and how to examine mediation using statistical moderation analyses. <i>Journal of Experimental Social Psychology, 109</i>, 104507. <a href="https://doi.org/10.1016/j.jesp.2023.104507">https://doi.org/10.1016/j.jesp.2023.104507</a>
+<br>Ge, X., Li, X., & Hou, Y. (2023). Confucian ideal personality traits (Junzi personality) and leadership effectiveness: Why leaders with traditional traits can achieve career success in modern China. <i>Journal of Organizational Behavior, 45</i>(5), 741–763. <a href="https://doi.org/10.1002/job.2764">https://doi.org/10.1002/job.2764</a>
+<br>If you have any questions, feel free to email me.</p>
