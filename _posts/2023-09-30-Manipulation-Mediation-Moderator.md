@@ -7,7 +7,7 @@ categories: ["Mediation Analysis"]
 ---
 
 
-<p>Hello everyone! Today, I'm excited to share with you a groundbreaking experimental design method called Manipulation-o-Mediation-as-a-Modeler (MMM). Whether you're a seasoned researcher or just starting out, understanding mediation effects is crucial for uncovering the mechanisms behind the relationships between variables. In this post, I'll walk you through the essentials of MMM, helping you grasp its significance and how it stands out from existing mediation analysis methods.</p>
+<p>In this article, I will share with you a groundbreaking experimental design method called Manipulation-o-Mediation-as-a-Modeler (MMM). Whether you're a seasoned researcher or just starting out, understanding mediation effects is crucial for uncovering the mechanisms behind the relationships between variables. In this post, I'll walk you through the essentials of MMM, helping you grasp its significance and how it stands out from existing mediation analysis methods. It should be emphasized that if you want to get a complete picture of this research design, I suggest you read Ge's paper “<b><a href="Experimentally manipulating mediating processes: why and how to examine mediation using statistical moderation analyses">https://doi.org/10.1016/j.jesp.2023.104507</a></b>”, in which he first proposed the MMM approach</p>
 
 <h2><strong>Understanding Mediation Testing: Goals and Methods</strong></h2>
 
