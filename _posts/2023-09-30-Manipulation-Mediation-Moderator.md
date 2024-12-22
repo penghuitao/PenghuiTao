@@ -20,7 +20,7 @@ categories: ["Mediation Analysis"]
 </ul>
 <p>Only by rejecting all three scenarios can we confidently assert that M mediates the relationship between X and Y.</p>
 
-<img src="{{ '/assets/img/20240123/MMM1.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
+<img src="{{ '/assets/img/20240123/MMM1.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px;">
 
 <h3><strong>Traditional Methods and Their Limitations</strong></h3>
 <p>The most common approach involves measuring the mediator (M) and conducting statistical mediation analyses using three key equations:</p>
@@ -44,8 +44,8 @@ categories: ["Mediation Analysis"]
   <li><strong>Concurrent Double Randomization Design:</strong> Combines elements of double randomization with concurrent testing.</li>
 </ul>
 <p>Despite their variety, these designs often fall short in fully addressing mediation hypotheses. Issues like potential misinterpretation of mediation effects and limited ability to comprehensively test mediation persist across these methodologies.</p>
-<img src="{{ '/assets/img/20240123/MMM2.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
-<img src="{{ '/assets/img/20240123/MMM3.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
+<img src="{{ '/assets/img/20240123/MMM2.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px;">
+<img src="{{ '/assets/img/20240123/MMM3.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px;">
 <h2><strong>Introducing Manipulation-o-Mediation-as-a-Modeler (MMM)</strong></h2>
 <p>Given the limitations of existing designs, MMM emerges as a robust alternative that fulfills essential mediation testing requirements more effectively. Here's how MMM addresses key challenges:</p>
 
@@ -56,7 +56,7 @@ categories: ["Mediation Analysis"]
   <li><strong>Introducing MMM:</strong> How can MMM effectively test mediation effects when other designs fall short?</li>
   <li><strong>Mediation vs. Moderation:</strong> Does MMM conflate mediation with moderation, and why is statistical moderation analysis relevant for testing mediation?</li>
 </ul>
-<img src="{{ '/assets/img/20240123/MMM4.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
+<img src="{{ '/assets/img/20240123/MMM4.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px;">
 <h3><strong>How MMM Works: A Step-by-Step Guide</strong></h3>
 <ul>
   <li><strong>Formulate the Hypothesis:</strong> Define a causal model where X influences Y through M.</li>
@@ -79,7 +79,7 @@ categories: ["Mediation Analysis"]
   <li><strong>Enhanced Causal Inference:</strong> By experimentally manipulating M, MMM provides stronger evidence for the causal relationship between M and Y.</li>
   <li><strong>Comprehensive Testing:</strong> MMM addresses all three core requirements, offering a more thorough mediation test compared to other designs.</li>
 </ul>
-<img src="{{ '/assets/img/20240123/MMM5.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
+<img src="{{ '/assets/img/20240123/MMM5.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px;">
 <h2><strong>Potential Limitations</strong></h2>
 <ul>
   <li><strong>Confounding Effects:</strong> If manipulating M inadvertently affects other processes influencing Y, MMM might still yield false positives.</li>
