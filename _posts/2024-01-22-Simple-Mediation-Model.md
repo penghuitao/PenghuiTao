@@ -13,7 +13,7 @@ categories: ["Mediation Analysis"]
   <li><strong>No Effect on Outcome:</strong> Changes in M don't affect Y.</li>
   <li><strong>Independent Effects:</strong> Even if X affects M and M affects Y, the influence of M on Y is independent of X's effect on Y.</li>
 </ul>
-<p>I also explained that statistical mediation analysis cannot support any mediation hypothesis. However, as a basic method of mediation analysis, statistical mediation analysis can provide clues for mediation relationships and direct the experimental testing of mediation. Therefore, I will introduce the three most commonly used models, starting with the simple mediation model.</p>
+<p>I also explained that <b>statistical mediation analysis cannot support any mediation hypothesis</b>. However, as a basic method of mediation analysis, statistical mediation analysis can provide clues for mediation relationships and direct the experimental testing of mediation. Therefore, I will introduce the three most commonly used models, starting with the simple mediation model.</p>
 
 <h2><strong>Simple Mediation Model</strong></h2>
 <p>The simple mediation model, shown below, involves an independent variable X, a mediator variable M, and a dependent variable Y. X predicts both M and Y, and M predicts Y. When we construct and test this model in some data analysis software, we can determine whether there is such a relationship between the three variables and whether M mediates the effect of X on Y.</p>
@@ -103,3 +103,9 @@ OUTPUT: SAMPSTAT STDYX MOD CINTERVAL; ! Output sample statistics, standardized v
   <li>1. If there are too many indicators for the latent variables, you can simplify the model by grouping the indicators, which can improve the model fit.</li>
   <li>2. Bootstrap and MLR estimation methods cannot be used simultaneously.</li>
 </ul>
+<p>If you want to learn more, I recommend reading the following articles:
+<br>Fairchild, A. J., & MacKinnon, D. P. (2008). A general model for testing mediation and moderation effects. <i>Prevention Science, 10</i>(2), 87–99. <a href="https://doi.org/10.1007/s11121-008-0109-6">https://doi.org/10.1007/s11121-008-0109-6</a>
+<br>Hayes, A. F., & Preacher, K. J. (2010). Quantifying and testing indirect effects in simple mediation models when the constituent paths are nonlinear. <i>Multivariate Behavioral Research, 45</i>(4), 627–660. <a href="https://doi.org/10.1080/00273171.2010.498290">https://doi.org/10.1080/00273171.2010.498290</a>
+<br>Pek, J., & Hoyle, R. H. (2016b). On the (In)Validity of Tests of Simple Mediation: Threats and Solutions. <i>Social and Personality Psychology Compass, 10</i>(3), 150–163. <a href="https://doi.org/10.1111/spc3.12237">https://doi.org/10.1111/spc3.12237</a>
+<br>Rijnhart, J. J., Twisk, J. W., Chinapaw, M. J., De Boer, M. R., & Heymans, M. W. (2017). Comparison of methods for the analysis of relatively simple mediation models. <i>Contemporary Clinical Trials Communications, 7</i>, 130–135. <a href="https://doi.org/10.1016/j.conctc.2017.06.005">https://doi.org/10.1016/j.conctc.2017.06.005</a>
+<br>If you have any questions, feel free to email me.</p>
