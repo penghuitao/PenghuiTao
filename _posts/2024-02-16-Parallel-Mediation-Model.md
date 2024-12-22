@@ -6,7 +6,7 @@ date:   2024-02-16 22:00:21 +0530
 categories: ["Mediation Analysis"]
 ---
 
-<p>In addition to the simple mediation model, one of the common models with two mediator variables is the parallel mediation model. In this model, it is assumed that there is no temporal order between the two mediator variables, as shown in the figure below.</p>
+<p>In addition to the simple mediation model, one of the common models with two mediator variables is the parallel mediation model. In this model, it is assumed that there is no temporal order between the two mediator variables, as shown in the figure below. <b>As before, I want to emphasize that for mediation tests, I strongly recommend that you use experimental designs rather than statistical mediation tests</b>.</p>
 
 <img src="{{ '/assets/img/20240123/PM1.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
 
@@ -91,3 +91,8 @@ OUTPUT: SAMPSTAT STDYX MOD CINTERVAL; ! Output sample statistics, standardized v
 <img src="{{ '/assets/img/20240123/PM5.png' | prepend: site.baseurl }}" id="about-img" style="width: 50%; max-width: 800px;">
 
 </ul>
+<p>If you want to learn more, I recommend reading the following articles, all of which use the parallel mediation model:
+<br>Kane, L., & Ashbaugh, A. R. (2017). Simple and parallel mediation: {A} tutorial exploring anxiety sensitivity, sensation seeking, and gender. <i>The Quantitative Methods for Psychology, 13</i>(3), 148–165. <a href="https://doi.org/10.20982/tqmp.13.3.p148">https://doi.org/10.20982/tqmp.13.3.p148</a>
+<br>Ranjan, S., & Dash, S. (2022). Impact of internal corporate social responsibility: a parallel mediation analysis. <i>Personnel Review, 53</i>(1), 119–135. <a href="https://doi.org/10.1108/pr-05-2020-0354">https://doi.org/10.1108/pr-05-2020-0354</a>
+<br>Shafique, I., Qammar, A., Kalyar, M. N., Ahmad, B., & Mushtaq, A. (2020). Workplace ostracism and deviant behaviour among nurses: a parallel mediation model. <i>Journal of Asia Business Studies, 15</i>(1), 50–71. <a href="https://doi.org/10.1108/jabs-03-2020-0096">https://doi.org/10.1108/jabs-03-2020-0096</a>
+<br>If you have any questions, feel free to email me.</p>
