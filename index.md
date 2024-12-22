@@ -28,7 +28,7 @@ sitemap:
 
   <p><b>[Sep 4, 2024]</b> Submitted a <b>funding application</b> for my research. Wish me luck!</p>
 
-  <p><b>[Aug 10, 2024]</b> Attended the <b>AEJMC 2024</b> conference and presented a poster on my recent research exploring the distinctiveness between efficacy constructs and transilience!</p>
+  <p><b>[Aug 10, 2024]</b> Attended the <b>AEJMC 2024 Annual Conference</b> and presented a poster on my recent research exploring the distinctiveness between efficacy constructs and transilience!</p>
 
   <p><b>[June 20, 2024]</b> The first wave of data from our large-scale longitudinal survey has been collected! It’s a quota sample with a sample size of <b>4,186</b>!</p>
 
