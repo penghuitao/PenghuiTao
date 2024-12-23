@@ -76,8 +76,8 @@ qgraph(cor_da, layout="spring",
 
 
 <p>If you want to know more, I suggest you read the following articles and books:
-<br>Oliveira, M., & Gama, J. (2012). An overview of social network analysis. <i>Wiley Interdisciplinary Reviews Data Mining and Knowledge Discovery, 2</i>(2), 99–115. <a href="https://doi.org/10.1002/widm.1048">https://doi.org/10.1002/widm.1048</a>
-<br>Scott J. <i>What is social network analysis?</i>[M]. Bloomsbury Academic, 2012.
-<br>Tabassum, S., Pereira, F. S. F., Fernandes, S., & Gama, J. (2018). Social network analysis: An overview. <i>Wiley Interdisciplinary Reviews Data Mining and Knowledge Discovery, 8</i>(5). <a href="https://doi.org/10.1002/widm.1256">https://doi.org/10.1002/widm.1256</a>
+<br>Epskamp, S., & Fried, E. I. (2018). A tutorial on regularized partial correlation networks. <i>Psychological Methods, 23</i>(4), 617–634. <a href="https://doi.org/10.1037/met0000167">https://doi.org/10.1037/met0000167</a>
+<br>Fransson, P., & Marrelec, G. (2008). The precuneus/posterior cingulate cortex plays a pivotal role in the default mode network: Evidence from a partial correlation network analysis. <i>NeuroImage, 42</i>(3), 1178–1184. <a href="https://doi.org/10.1016/j.neuroimage.2008.05.059">https://doi.org/10.1016/j.neuroimage.2008.05.059</a>
+<br>Williams, D. R., & Rast, P. (2019). Back to the basics: Rethinking partial correlation network methodology. <i>British Journal of Mathematical and Statistical Psychology, 73</i>(2), 187–212. <a href="https://doi.org/10.1111/bmsp.12173">https://doi.org/10.1111/bmsp.12173</a>
 
 <p>If you have any questions, please feel free to contact me!</p>
