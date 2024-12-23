@@ -74,6 +74,6 @@ PLOT: TYPE IS PLOT2; ! Request scree plot
 </pre>
 <p>If you want to know more, I suggest you read the following articles and books:
 <br>Fabrigar, L. R., & Wegener, D. T. (2012). <i>Exploratory factor analysis</i>. Oxford University Press.
-<br>Fabrigar, L. R., Wegener, D. T., MacCallum, R. C., & Strahan, E. J. (1999). Evaluating the use of exploratory factor analysis in psychological research. <i>Psychological methods, 4</i>(3), 272.
-<br>Howard, M. C. (2016). A review of exploratory factor analysis decisions and overview of current practices: What we are doing and how can we improve?. <i>International journal of human-computer interaction, 32</i>(1), 51-62.
-<br>Watkins, M. W. (2018). Exploratory factor analysis: A guide to best practice. <i>Journal of black psychology, 44</i>(3), 219-246.
+<br>Fabrigar, L. R., Wegener, D. T., MacCallum, R. C., & Strahan, E. J. (1999). Evaluating the use of exploratory factor analysis in psychological research. <i>Psychological methods, 4</i>(3), 272. <a href="https://doi.org/10.1037/1082-989x.4.3.272">https://doi.org/10.1037/1082-989x.4.3.272</a>
+<br>Howard, M. C. (2015). A review of exploratory factor analysis decisions and overview of current practices: what we are doing and how can we improve? <i>International Journal of Human-Computer Interaction, 32</i>(1), 51–62. <a href="https://doi.org/10.1080/10447318.2015.1087664">https://doi.org/10.1080/10447318.2015.1087664</a>
+<br>Watkins, M. W. (2018). Exploratory factor analysis: A guide to best practice. <i>Journal of black psychology, 44</i>(3), 219-246. <a href="https://doi.org/10.1177/0095798418771807">https://doi.org/10.1177/0095798418771807</a>
