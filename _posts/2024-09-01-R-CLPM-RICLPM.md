@@ -7,9 +7,8 @@ categories: ["Longitudinal Analysis"]
 ---
 
 
-<h3>CLPM and RI-CLPM R Implementation</h3>
-
-<h4>Traditional CLPM Lavaan Implementation</h4>
+<p>In this post, I will describe how to implement CLPM and RI-CLPM in R. The previous post only described the Mplus code for these models, but for some people, R is more convenient and easier to understand, you can just copy the code and use it, if you have any questions, please contact me!</p>
+<h2><strong>Traditional CLPM Lavaan Implementation</strong></h2>
 <p><strong>Loading Packages</strong></p>
 <pre>
 library(tidyverse)
@@ -86,7 +85,7 @@ fitMeasures(CLPM.fit)
 
 <p>From the results, the model fit is within an acceptable range, and the x and y variables have a reciprocal causal relationship (however, it should be noted that cross-lagged correlations between the two variables not only reflect causal relationships but also include the temporal stability of each variable as well as the cross-correlation between the two variables at the first wave. If the stability of y is stronger than that of x, even if the coefficient for x1 → y2 is smaller than that of y1 → x2, the cross-lagged correlation between x1 and y2 could still be larger than between x2 and y1).</p>
 
-<h4>Random Intercept Cross-Lagged Panel Model (RI-CLPM) Lavaan Implementation</h4>
+<h2><strong>Random Intercept Cross-Lagged Panel Model (RI-CLPM) Lavaan Implementation</strong></h2>
 <p>The RI-CLPM, compared to the traditional CLPM, requires the specification of four components:</p>
 <ul>
   <li>The between-person component, i.e., the random intercepts. The factor loadings are fixed to 1 in the following part: <code>RIx =~ 1*x1 1*x2 ...</code></li>
