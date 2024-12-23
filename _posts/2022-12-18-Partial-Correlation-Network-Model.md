@@ -15,20 +15,33 @@ categories: ["Network Analysis"]
 <p>For implementing network analysis models in R, one of the most commonly used packages is <code>qgraph</code>, and another useful package is <code>mgm</code>, which can be used to compare differences in network models between multiple groups of subjects. Below, I will demonstrate how to implement a partial correlation network model in R.</p>
 
 <h2><strong>Code for Partial Correlation Network Model</strong></h2>
+<h3><strong>Load Required Packages</strong></h3>
 <pre>
-# Load Required Packages
+<code>
 library(tidyverse)
 library(qgraph)
 library(readxl)
+</code>
+</pre>
 
-# Read and Transform Data
+<h3><strong>Read and Transform Data</strong></h3>
+<pre>
+<code>
 da <- read_xlsx("CES-D.xlsx", sheet = 1)
+</code>
+</pre>
 
-# Renaming Item Variables
+<h3><strong>Renaming Item Variables</strong></h3>
+<pre>
+<code>
 names(da)[4:23] <- c("D1","S1","D2","P1","S2","D3","S3","P2","D4", "D5", 
                      "S4","P3","S5","D6","I1","P4","D7","D8","I2","S6")
+</code>
+</pre>
 
-# Reverse Code Positive Affect Items
+<h3><strong>Reverse Code Positive Affect Items</strong></h3>
+<pre>
+<code>
 da_f <- da %>%   
   mutate(P1 = recode(P1,'0'=3, '1' = 2, '2' = 1, '3' = 0),         
          P2 = recode(P2,'0'=3, '1' = 2, '2' = 1, '3' = 0),         
@@ -36,8 +49,12 @@ da_f <- da %>%
          P4 = recode(P4,'0'=3, '1' = 2, '2' = 1, '3' = 0)) %>%   
   select(D1,D2,D3,D4,D5,D6,D7,D8,S1,S2,S3,S4,S5,S6,P1,P2,P3,P4,I1,I2) %>%   
   drop_na()
+</code>
+</pre>
 
-# Calculate Partial Correlations and Plot Network
+<h3><strong>Calculate Partial Correlations and Plot Network</strong></h3>
+<pre>
+<code>
 cor_da <- cor(da_f)
 qgraph(cor_da, layout="spring",       
        groups = list("Depressed_Affect" = 1:8,                       
@@ -45,11 +62,13 @@ qgraph(cor_da, layout="spring",
                      "Positive_Affect" = 15:18,                     
                      "Interpersonal_Problems" = 19:20),       
        graph = "pcor", vsize = 4, label.cex = 2)
+</code>
 </pre>
 
 <p>The above plot shows the connections between all nodes in the network, which can become too complex and hard to interpret. Therefore, researchers often introduce a penalization factor in partial correlation network models, such as the GLASSO algorithm.</p>
 
 <pre>
+<code>
 # Apply GLASSO Algorithm
 qgraph(cor_da, layout="spring",       
        groups = list("Depressed_Affect" = 1:8,                       
@@ -57,11 +76,13 @@ qgraph(cor_da, layout="spring",
                      "Positive_Affect" = 15:18,                     
                      "Interpersonal_Problems" = 19:20),       
        graph = "glasso", vsize = 4, label.cex = 2, sampleSize = nrow(da_f))
+</code>
 </pre>
 
 <p>Additionally, we can present item names in the legend for a more intuitive representation of the relationships between items.</p>
 
 <pre>
+<code>
 # Present Item Names in the Legend
 Names <- scan("D:/future_plan/new_method/social network for variable relation/ces.txt", what = "character", sep = "\n")
 
@@ -72,6 +93,7 @@ qgraph(cor_da, layout="spring",
                      "Interpersonal_Problems" = 19:20),                  
        graph = "glasso", vsize = 4, label.cex = 2,                 
        sampleSize = nrow(da_f), nodeNames = Names, legend.cex = 0.2)
+</code>
 </pre>
 
 
