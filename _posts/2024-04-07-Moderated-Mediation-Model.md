@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Chain Mediation Model"
+title:  "Moderated Mediation Model"
 subtitle: ""
 date:   2024-04-07 22:00:21 +0530
 categories: ["Mediation Analysis"]
