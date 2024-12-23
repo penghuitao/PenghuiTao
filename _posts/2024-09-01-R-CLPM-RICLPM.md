@@ -35,10 +35,7 @@ ggplot(data = datLong, aes(x = wave, y = value, color = var, group = var)) +
   stat_summary(fun = mean, geom = "point", size = 3, shape = 19) +
   theme(panel.background = element_rect(fill = "white"))
 
-# **CLPM Model Definition**
-# In this model, we estimate the lagged effects between observed variables (x and y),
-# as well as their residual covariances and variances.
-
+# Define CLPM model
 CLPM <- '
   # Estimate the lagged effects between the observed variables
   x2 + y2 ~ x1 + y1
@@ -68,25 +65,21 @@ CLPM <- '
   y5 ~~ y5
 '
 
-# Estimate the CLPM model using the lavaan function
+# Estimate CLPM model
 CLPM.fit <- sem(CLPM, data = dat, missing = "fiml", mimic = "mplus", se = "boot", bootstrap = 1000, meanstructure = TRUE, int.ov.free = TRUE)
 
 # Report CLPM results
-# Summary report including standardized estimates, parameter estimates, and fit measures
 summary(CLPM.fit, standardized = TRUE)
 parameterEstimates(CLPM.fit)
 fitMeasures(CLPM.fit)
 
-# **RI-CLPM Model Definition**
-# The Random Intercept Cross-Lagged Panel Model (RI-CLPM) adds the random intercepts and within-person variation.
-# It splits the model into two parts: between-person and within-person components.
-
+# Define the RI-CLPM model
 RICLPM <- '
   # Create between components (random intercepts)
   RIx =~ 1*x1 + 1*x2 + 1*x3 + 1*x4 + 1*x5
   RIy =~ 1*y1 + 1*y2 + 1*y3 + 1*y4 + 1*y5
   
-  # Create within-person centered variables (using within-person deviations)
+  # Create within-person centered variables
   wx1 =~ 1*x1
   wx2 =~ 1*x2
   wx3 =~ 1*x3
@@ -131,18 +124,14 @@ RICLPM <- '
   wy5 ~~ wy5
 '
 
-# Estimate the RI-CLPM model using the lavaan function
+# Estimate the RI-CLPM model
 RICLPM.fit <- sem(RICLPM, data = dat, missing = "fiml", mimic = "mplus", se = "boot", bootstrap = 1000, meanstructure = TRUE, int.ov.free = TRUE)
 
 # Report RI-CLPM results
-# Summary report including standardized estimates, parameter estimates, and fit measures
 summary(RICLPM.fit, standardized = TRUE)
 parameterEstimates(RICLPM.fit)
 fitMeasures(RICLPM.fit)
 
-# **Comparing Fit between CLPM and RI-CLPM**
-# We can compare the fit of the two models using the `compareFit` function from the semTools package.
-# This will help us understand if the random intercept model (RI-CLPM) provides a better fit than the standard CLPM.
-
+# Compare the fit of CLPM and RI-CLPM models
 library(semTools)
 compareFit(CLPM.fit, RICLPM.fit)
