@@ -73,6 +73,6 @@ MODEL:
 OUTPUT: STANDARDIZED MOD;
 </pre>
 <p>If you want to know more, I suggest you read the following articles and books:
-<br>Asparouhov,T., & Muthén, B. (2009). Exploratory structural equation modeling. <i>Structural Equation Modeling: A Multidisciplinary Journal, 16</i>(3), 397-438.
-<br>Mai,Y., Zhang, Z., & Wen, Z. (2018). Comparing exploratory structural equation modeling and existing approaches for multiple regression with latent variables. <i>Structural Equation Modeling: A Multidisciplinary Journal, 25</i>(5), 737-749.
-<br>Marsh,H. W., Guo, J., Dicke, T., Parker, P. D., & Craven, R. G. (2020). Confirmatory factor analysis (CFA), exploratory structural equation modeling(ESEM), and set-ESEM: optimal balance between goodness of fit and parsimony. <i>Multivariate Behavioral Research, 55</i>(1), 102-119.
+<br>Asparouhov,T., & Muthén, B. (2009). Exploratory structural equation modeling. <i>Structural Equation Modeling: A Multidisciplinary Journal, 16</i>(3), 397-438. <a href="https://doi.org/10.1080/10705510903008204">https://doi.org/10.1080/10705510903008204</a>
+<br>Mai,Y., Zhang, Z., & Wen, Z. (2018). Comparing exploratory structural equation modeling and existing approaches for multiple regression with latent variables. <i>Structural Equation Modeling: A Multidisciplinary Journal, 25</i>(5), 737-749. <a href="https://doi.org/10.1080/10705511.2018.1444993">https://doi.org/10.1080/10705511.2018.1444993</a>
+<br>Marsh,H. W., Guo, J., Dicke, T., Parker, P. D., & Craven, R. G. (2020). Confirmatory factor analysis (CFA), exploratory structural equation modeling(ESEM), and set-ESEM: optimal balance between goodness of fit and parsimony. <i>Multivariate Behavioral Research, 55</i>(1), 102-119. <a href="https://doi.org/10.1080/00273171.2019.1602503">https://doi.org/10.1080/00273171.2019.1602503</a>
