@@ -9,7 +9,7 @@ categories: ["Mediation Analysis"]
 
 <p>In previous articles, I introduced simple mediation models, parallel mediation models, and chain mediation models. Today, I will introduce a slightly more complex mediation model: the moderated mediation model.</p>
 
-<p>A moderated mediation model is a common model that simultaneously includes both a mediator variable and a moderator variable. This model suggests that the independent variable influences the dependent variable through the mediator variable, while the mediation process is moderated by the moderator variable (Baron & Kenny, 1986). In this article, I will use a specific research example to demonstrate how to implement this model in R.</p>
+<p>A moderated mediation model is a common model that simultaneously includes both a mediator variable and a moderator variable. This model suggests that the independent variable influences the dependent variable through the mediator variable, while the mediation process is moderated by the moderator variable. In this article, I will use a specific research example to demonstrate how to implement this model in R.</p>
 <img src="{{ '/assets/img/20240123/MMMA.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px; border-radius: 10px;">
 <p>Research shows that there is a similarity between adolescents' and mothers' personalities, which seems to validate the saying "like mother, like son." However, in real life, we also find that there are differences between adolescents' and mothers' personalities. Our study focuses on the influence of mothers' neuroticism on adolescents' neuroticism, as well as the roles of parenting style (mediator) and peer relationships (moderator). Our hypothesized model is as follows:</p>
 
