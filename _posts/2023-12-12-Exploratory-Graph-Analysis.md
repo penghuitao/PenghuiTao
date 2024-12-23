@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Visualizing Connections: A Guide to Exploratory Graph Analysis"
+title:  "Exploratory Graph Analysis"
 subtitle: ""
 date:   2023-12-12 15:01:21 +0530
 categories: ["Network Analysis"]
