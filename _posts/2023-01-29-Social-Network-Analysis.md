@@ -10,7 +10,6 @@ categories: ["Network Analysis"]
 <h2><strong>What is Social Network Analysis</strong></h2>
 <img src="{{ '/assets/img/20240123/SNA1.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px;">
 <p>Social Network Analysis (SNA) is a method for studying social structures and interactions using networks and graph theory. It characterizes network structure based on nodes (individual participants, people, or things in the network) and the relationships, edges, or links connecting them (relationships or interactions). Social structures visualized through social network analysis typically include social media networks, meme propagation, information flow, friendship and acquaintance networks, business networks, collaboration graphs, kinship relationships, disease spread, and sexual relationships. Individuals or organizations in social relationships are represented as points, and their relationships are represented as lines or edges.</p>
-<img src="{{ '/assets/img/20240123/SNA.jif' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px; border-radius: 10px;">
 
 <p>Social network analysis is widely used in disciplines such as anthropology, biology, demography, communication, economics, geography, history, information science, organizational studies, and political science. Of course, some psychological research can also apply this method. For example, in the study of self-monitoring traits, Oh and Kilduff (2008) used individual networks to discover that differences in self-monitoring led to differences in individuals’ positions in acquaintance networks, with high self-monitors more likely to occupy direct or indirect brokerage positions.</p>
 
@@ -26,6 +25,7 @@ View(data) # View the data in R
 str(data) # Understand the basic structure of the data
 </code>
 </pre>
+<img src="{{ '/assets/img/20240123/SNA2.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px; border-radius: 10px;">
 <p>This data includes 4 variables and 290 observations. The first column contains the name of the first person, the second column contains the name of the second person, and the other columns contain grade and specialty. We only need to use the first two columns, so we create the data frame as follows:</p>
 <pre>
 <code>
