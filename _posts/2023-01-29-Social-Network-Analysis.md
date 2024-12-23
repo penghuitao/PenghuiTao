@@ -8,9 +8,9 @@ categories: ["Network Analysis"]
 
 
 <h2><strong>What is Social Network Analysis</strong></h2>
-<img src="{{ '/assets/img/20240123/SNA1.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px;">
-<p>Social Network Analysis (SNA) is a method for studying social structures and interactions using networks and graph theory. It characterizes network structure based on nodes (individual participants, people, or things in the network) and the relationships, edges, or links connecting them (relationships or interactions). Social structures visualized through social network analysis typically include social media networks, meme propagation, information flow, friendship and acquaintance networks, business networks, collaboration graphs, kinship relationships, disease spread, and sexual relationships. Individuals or organizations in social relationships are represented as points, and their relationships are represented as lines or edges.</p>
 
+<p>Social Network Analysis (SNA) is a method for studying social structures and interactions using networks and graph theory. It characterizes network structure based on nodes (individual participants, people, or things in the network) and the relationships, edges, or links connecting them (relationships or interactions). Social structures visualized through social network analysis typically include social media networks, meme propagation, information flow, friendship and acquaintance networks, business networks, collaboration graphs, kinship relationships, disease spread, and sexual relationships. Individuals or organizations in social relationships are represented as points, and their relationships are represented as lines or edges.</p>
+<img src="{{ '/assets/img/20240123/SNA1.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px;">
 <p>Social network analysis is widely used in disciplines such as anthropology, biology, demography, communication, economics, geography, history, information science, organizational studies, and political science. Of course, some psychological research can also apply this method. For example, in the study of self-monitoring traits, Oh and Kilduff (2008) used individual networks to discover that differences in self-monitoring led to differences in individuals’ positions in acquaintance networks, with high self-monitors more likely to occupy direct or indirect brokerage positions.</p>
 
 <h2><strong>R Implementation of Social Network Analysis</strong></h2>
@@ -144,3 +144,10 @@ plot(cnet,
 </pre>
 <img src="{{ '/assets/img/20240123/SNA10.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px; border-radius: 10px;">
 <p>This visualizes small communities within the network, identifying approximately six significant subgroups in the class.</p>
+
+<p>If you want to know more, I suggest you read the following articles and books:
+<br>Oliveira, M., & Gama, J. (2012). An overview of social network analysis. <i>Wiley Interdisciplinary Reviews Data Mining and Knowledge Discovery, 2</i>(2), 99–115. <a href="https://doi.org/10.1002/widm.1048">https://doi.org/10.1002/widm.1048</a>
+<br>Scott J. <i>What is social network analysis?</i>[M]. Bloomsbury Academic, 2012.
+<br>Tabassum, S., Pereira, F. S. F., Fernandes, S., & Gama, J. (2018). Social network analysis: An overview. <i>Wiley Interdisciplinary Reviews Data Mining and Knowledge Discovery, 8</i>(5). <a href="https://doi.org/10.1002/widm.1256">https://doi.org/10.1002/widm.1256</a>
+
+<p>If you have any questions, please feel free to contact me!</p>
