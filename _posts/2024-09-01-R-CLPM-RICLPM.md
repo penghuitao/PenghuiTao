@@ -39,7 +39,8 @@ geom_point(shape = 1) + stat_summary(fun = mean, geom = "line", lwd = 1.5) +
 stat_summary(fun = mean, geom = "point", size=3, shape = 19) + 
 theme(panel.background = element_rect(fill = "white"))
 </pre>
-
+<img src="{{ '/assets/img/20240123/RCR1.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px;">
+<img src="{{ '/assets/img/20240123/RCR2.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px;">
 <p><strong>Setting Up the Model</strong></p>
 <pre>
 CLPM <- '  
@@ -82,7 +83,8 @@ summary(CLPM.fit, standardized = T)
 parameterEstimates(CLPM.fit)
 fitMeasures(CLPM.fit)
 </pre>
-
+<img src="{{ '/assets/img/20240123/RCR3.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px;">
+<img src="{{ '/assets/img/20240123/RCR4.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px;">
 <p>From the results, the model fit is within an acceptable range, and the x and y variables have a reciprocal causal relationship (however, it should be noted that cross-lagged correlations between the two variables not only reflect causal relationships but also include the temporal stability of each variable as well as the cross-correlation between the two variables at the first wave. If the stability of y is stronger than that of x, even if the coefficient for x1 → y2 is smaller than that of y1 → x2, the cross-lagged correlation between x1 and y2 could still be larger than between x2 and y1).</p>
 
 <h2><strong>Random Intercept Cross-Lagged Panel Model (RI-CLPM) Lavaan Implementation</strong></h2>
@@ -157,12 +159,13 @@ summary(RICLPM.fit, standardized = T)
 parameterEstimates(RICLPM.fit)
 fitMeasures(RICLPM.fit)
 </pre>
-
+<img src="{{ '/assets/img/20240123/RCR5.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px;">
+<img src="{{ '/assets/img/20240123/RCR6.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px;">
 <p>The results from the RI-CLPM show that the lagged coefficients for x → y are mostly significant, while the lagged coefficients for y → x are mostly not significant.</p>
 
 <p><strong>Comparing the Fit of the Two Models</strong></p>
 <pre>
 semTools::compareFit(CLPM.fit, RICLPM.fit)
 </pre>
-
+<img src="{{ '/assets/img/20240123/RCR7.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px;">
 <p>The results indicate that the RI-CLPM fits significantly better than the CLPM.</p>
