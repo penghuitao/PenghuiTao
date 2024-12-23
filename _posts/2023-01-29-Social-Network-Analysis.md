@@ -48,6 +48,7 @@ net <- graph.data.frame(y, directed=T) # Create the social network, directed = T
 V(net) # View the number of nodes
 </code>
 </pre>
+<img src="{{ '/assets/img/20240123/SNA3.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px; border-radius: 10px;">
 <p>There are 52 nodes in total.</p>
 
 <h4><strong>3.2 Check the Number of Edges</strong></h4>
@@ -56,6 +57,7 @@ V(net) # View the number of nodes
 E(net) # View the number of edges
 </code>
 </pre>
+<img src="{{ '/assets/img/20240123/SNA4.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px; border-radius: 10px;">
 <p>There are 290 edges in total.</p>
 
 <h3><strong>4. Relationship Distribution</strong></h3>
@@ -67,6 +69,7 @@ hist(V(net)$degree, col = 'green',
      xlab = 'Degree of Vertices')
 </code>
 </pre>
+<img src="{{ '/assets/img/20240123/SNA5.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px; border-radius: 10px;">
 <p>This will generate a histogram of node degrees. Most individuals have fewer than 10 relationships, but some have up to 70 relationships.</p>
 
 <h3><strong>5. Visualize the Social Network</strong></h3>
@@ -79,6 +82,7 @@ plot(net, vertex.color = 'red',
      vertex.label.cex = 0.8)
 </code>
 </pre>
+<img src="{{ '/assets/img/20240123/SNA6.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px; border-radius: 10px;">
 <p>This will display the social network with nodes colored red, with small node sizes and small edge arrow sizes. This visualization is quite cluttered, so further adjustments are needed.</p>
 
 <h3><strong>6. Highlight Degree and Layout</strong></h3>
@@ -91,6 +95,7 @@ plot(net,
      layout = layout.fruchterman.reingold)
 </code>
 </pre>
+<img src="{{ '/assets/img/20240123/SNA8.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px; border-radius: 10px;">
 <p>Here, nodes are colored according to a rainbow palette, and node sizes are proportional to their degree. The layout function adjusts the positioning of the nodes.</p>
 
 <h3><strong>7. Visualize Hubs and Authorities in the Network</strong></h3>
@@ -123,6 +128,7 @@ plot(net,
      layout = layout.kamada.kawai)
 </code>
 </pre>
+<img src="{{ '/assets/img/20240123/SNA9.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px; border-radius: 10px;">
 <p>These plots show the hub and authority scores for each node. Student CC is the most sociable, while student CA is the most popular.</p>
 
 <h3><strong>8. Check Small Communities</strong></h3>
@@ -136,4 +142,5 @@ plot(cnet,
      vertex.label.cex = 0.8)
 </code>
 </pre>
+<img src="{{ '/assets/img/20240123/SNA10.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px; border-radius: 10px;">
 <p>This visualizes small communities within the network, identifying approximately six significant subgroups in the class.</p>
