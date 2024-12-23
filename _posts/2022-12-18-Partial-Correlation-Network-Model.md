@@ -78,7 +78,7 @@ qgraph(cor_da, layout="spring",
 </code>
 </pre>
 <img src="{{ '/assets/img/20240123/PCN2.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px; border-radius: 10px;">
-<p><b>Note: The link between an item and an item is indicated by a line, the green line represents a positive correlation, the red line represents a negative correlation, and the thicker the line, the stronger the correlation.</b></p>
+<p><b>Note: The link between a node and a node is indicated by a line, the green line represents a positive correlation, the red line represents a negative correlation, and the thicker the line, the stronger the correlation.</b></p>
 <p>Additionally, we can present item names in the legend for a more intuitive representation of the relationships between items.</p>
 
 <pre>
