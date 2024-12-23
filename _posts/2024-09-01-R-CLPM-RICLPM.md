@@ -2,7 +2,7 @@
 layout: page
 title:  "CLPM and RI-CLPM R Implementation"
 subtitle: ""
-date:   2024-08-15 01:45:01 +0530
+date:   2024-09-01 01:45:01 +0530
 categories: ["Longitudinal Analysis"]
 ---
 
