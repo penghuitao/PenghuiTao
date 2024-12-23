@@ -6,7 +6,7 @@ date:   2024-09-01 01:45:01 +0530
 categories: ["Longitudinal Analysis"]
 ---
 
-
+r
 # Install and load the lavaan package
 # install.packages("lavaan")
 library(lavaan)
@@ -135,3 +135,4 @@ fitMeasures(RICLPM.fit)
 # Compare the fit of CLPM and RI-CLPM models
 library(semTools)
 compareFit(CLPM.fit, RICLPM.fit)
+、、、
