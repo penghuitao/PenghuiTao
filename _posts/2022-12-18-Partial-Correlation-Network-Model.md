@@ -11,8 +11,7 @@ categories: ["Network Analysis"]
 
 <p>Currently, this model is widely used in clinical psychology. For example, Fritz et al. (2018) compared network models of psychological resilience factors in adolescents with and without childhood adversity. Fried et al. (2015) conducted network research on grief and depressive symptoms, finding that loneliness was the most important factor linking the two.</p>
 
-<p>Additionally, the most commonly used network analysis model today is the partial correlation network model.</p>
-<p>For implementing network analysis models in R, one of the most commonly used packages is <code>qgraph</code>, and another useful package is <code>mgm</code>, which can be used to compare differences in network models between multiple groups of subjects. Below, I will demonstrate how to implement a partial correlation network model in R.</p>
+<p>Additionally, the most commonly used network analysis model today is the partial correlation network model.For implementing network analysis models in R, one of the most commonly used packages is <code>qgraph</code>, and another useful package is <code>mgm</code>, which can be used to compare differences in network models between multiple groups of subjects. Below, I will demonstrate how to implement a partial correlation network model in R.</p>
 
 <h2><strong>Code for Partial Correlation Network Model</strong></h2>
 <h3><strong>Load Required Packages</strong></h3>
@@ -64,7 +63,7 @@ qgraph(cor_da, layout="spring",
        graph = "pcor", vsize = 4, label.cex = 2)
 </code>
 </pre>
-
+<img src="{{ '/assets/img/20240123/PCN1.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px; border-radius: 10px;">
 <p>The above plot shows the connections between all nodes in the network, which can become too complex and hard to interpret. Therefore, researchers often introduce a penalization factor in partial correlation network models, such as the GLASSO algorithm.</p>
 
 <pre>
@@ -78,7 +77,8 @@ qgraph(cor_da, layout="spring",
        graph = "glasso", vsize = 4, label.cex = 2, sampleSize = nrow(da_f))
 </code>
 </pre>
-
+<img src="{{ '/assets/img/20240123/PCN2.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px; border-radius: 10px;">
+<p><b>Note: The link between an item and an item is indicated by a line, the green line represents a positive correlation, the red line represents a negative correlation, and the thicker the line, the stronger the correlation.</b></p>
 <p>Additionally, we can present item names in the legend for a more intuitive representation of the relationships between items.</p>
 
 <pre>
@@ -95,7 +95,7 @@ qgraph(cor_da, layout="spring",
        sampleSize = nrow(da_f), nodeNames = Names, legend.cex = 0.2)
 </code>
 </pre>
-
+<img src="{{ '/assets/img/20240123/PCN3.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px; border-radius: 10px;">
 
 <p>If you want to know more, I suggest you read the following articles and books:
 <br>Epskamp, S., & Fried, E. I. (2018). A tutorial on regularized partial correlation networks. <i>Psychological Methods, 23</i>(4), 617–634. <a href="https://doi.org/10.1037/met0000167">https://doi.org/10.1037/met0000167</a>
