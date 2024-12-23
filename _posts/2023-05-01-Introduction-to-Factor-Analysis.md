@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Introduction to Factor Analysis: EFA and CFA"
+title:  "Introduction to Factor Analysis"
 subtitle: ""
 date:   2023-05-01 21:21:21 +0530
 categories: ["Factor Analysis"]
@@ -60,5 +60,5 @@ categories: ["Factor Analysis"]
 <p>If you want to know more, I suggest you read the following articles and books:
 <br>Kline, P. (2014). <i>An easy guide to factor analysis</i>. Routledge.
 <br>Pett, M. A., Lackey, N. R., & Sullivan, J. J. (2003). <i>Making sense of factor analysis: The use of factor analysis for instrument development in health care research</i>. sage.
-<br>Shrestha, N. (2021). Factor analysis as a tool for survey analysis. <i>American Journal of Applied Mathematics and Statistics, 9</i>(1), 4–11. https://doi.org/10.12691/ajams-9-1-2
+<br>Shrestha, N. (2021). Factor analysis as a tool for survey analysis. <i>American Journal of Applied Mathematics and Statistics, 9</i>(1), 4–11. <a href="https://doi.org/10.12691/ajams-9-1-2">https://doi.org/10.12691/ajams-9-1-2</a>
 <br>Rummel, R. J. (1988). <i>Applied factor analysis</i>. Northwestern University Press.
