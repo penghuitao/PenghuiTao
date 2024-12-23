@@ -7,13 +7,13 @@ categories: ["Network Analysis"]
 ---
 
 
-<h2><strong>Social Network Analysis in R</strong></h2>
+<h2><strong>What is Social Network Analysis</strong></h2>
 <p>Social Network Analysis (SNA) is a method for studying social structures and interactions using networks and graph theory. It characterizes network structure based on nodes (individual participants, people, or things in the network) and the relationships, edges, or links connecting them (relationships or interactions). Social structures visualized through social network analysis typically include social media networks, meme propagation, information flow, friendship and acquaintance networks, business networks, collaboration graphs, kinship relationships, disease spread, and sexual relationships. Individuals or organizations in social relationships are represented as points, and their relationships are represented as lines or edges.</p>
 
 <p>Social network analysis is widely used in disciplines such as anthropology, biology, demography, communication, economics, geography, history, information science, organizational studies, and political science. Of course, some psychological research can also apply this method. For example, in the study of self-monitoring traits, Oh and Kilduff (2008) used individual networks to discover that differences in self-monitoring led to differences in individuals’ positions in acquaintance networks, with high self-monitors more likely to occupy direct or indirect brokerage positions.</p>
 
 <h2><strong>R Implementation of Social Network Analysis</strong></h2>
-<p>In R, the primary package for social network analysis is <code>igraph</code>. In this article, I will demonstrate how to implement social network analysis in R using data from a friendship survey of 52 elementary school students in a class, obtained from a Chinese public database. You don't need to focus on specific numerical values, but you should note that social network analysis data appears in pairs.</p>
+<p>In R, the primary package for social network analysis is <code>igraph</code>. <b>In this article, I will demonstrate how to implement social network analysis in R using data from a friendship survey of 52 elementary school students in a class, obtained from a Chinese public database. You don't need to focus on specific numerical values, but you should note that social network analysis data appears in pairs.</b></p>
 
 <h3><strong>1. Load Data</strong></h3>
 <pre>
