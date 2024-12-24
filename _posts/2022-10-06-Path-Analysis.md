@@ -2,7 +2,7 @@
 layout: page
 title:  "Path Analysis"
 subtitle: ""
-date:   2022-11-11 15:01:21 +0530
+date:   2022-10-06 15:01:21 +0530
 categories: ["Structural Equation Modeling"]
 ---
 
