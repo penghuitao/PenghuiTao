@@ -1,4 +1,12 @@
-<h2><strong>Structural Equation Modeling (SEM)</strong></h2>
+---
+layout: page
+title:  "Structural Equation Modeling"
+subtitle: ""
+date:   2022-11-11 15:01:21 +0530
+categories: ["Structural Equation Modeling"]
+---
+
+
 <p>Structural Equation Modeling (SEM) is a method for establishing, estimating, and testing causal relationship models. These models include both observable manifest variables and potentially unobservable latent variables. SEM can replace multiple regression, path analysis, factor analysis, and covariance analysis methods, providing a clear analysis of the effects of individual indicators on the overall model and the relationships between individual indicators.</p>
 
 <p>SEM consists of two parts: the measurement model and the structural model. In previous articles, I discussed the measurement model, particularly Confirmatory Factor Analysis (CFA). In this article, we will explore the complete SEM model. Common packages used for SEM include <code>psych</code>, <code>sem</code>, <code>OpenMx</code>, and <code>lavaan</code>. Since we previously discussed path analysis using the <code>lavaan</code> package, I will continue to use this package here.</p>
