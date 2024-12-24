@@ -139,3 +139,11 @@ semPaths(results1, "std", layout = "circle")  # Circular diagram
 </code></pre>
 <img src="{{ '/assets/img/20240123/PAA14.png' | prepend: site.baseurl }}" id="about-img" style="width: 60%; max-width: 800px; border-radius: 10px;">
 <p>These diagrams represent the path model visually.</p>
+
+<p>If you want to know more, I suggest you read the following articles and books:
+<br>Duncan, O. D. (1966). Path analysis: Sociological examples. <i>American journal of Sociology, 72</i>(1), 1-16.
+<br>Garson, G. D. (2013). <i>Path analysis</i>. Asheboro, NC: Statistical Associates Publishing.
+<br>Stage, F. K., Carter, H. C., & Nora, A. (2004). Path Analysis: an introduction and analysis of a decade of research. <i>The Journal of Educational Research, 98</i>(1), 5–13. <a href="https://doi.org/10.3200/joer.98.1.5-13">https://doi.org/10.3200/joer.98.1.5-13</a>
+<br>Streiner, D. L. (2005). Finding our Way: An Introduction to path analysis. <i>The Canadian Journal of Psychiatry, 50</i>(2), 115–122. <a href="https://doi.org/10.1177/070674370505000207">https://doi.org/10.1177/070674370505000207</a>
+
+<p>If you have any questions, please feel free to contact me!</p>
