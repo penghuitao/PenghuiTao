@@ -59,3 +59,7 @@ ind2 := c*e  # Indirect effect through negative coping
 <h3><strong>5. Estimate and View the Adjusted Model</strong></h3>
 <pre><code>
 fit1 <- sem(model1, data = coping, se = "bootstrap", bootstrap = 200)  # Set bootstrap to 200
+summary(fit1, standardized = TRUE, fit = TRUE, rsquare = TRUE)  # View standardized results and model fit
+</code></pre>
+
+<p>We observe that the model's fit has worsened. Therefore, removing positive coping from the model seems to be problematic. Other adjustments, such as allowing error correlations, might be necessary to improve the fit indices. Since model tuning is time-consuming, I will not discuss it further here. You can conduct related research and refer to the references below.</p>
