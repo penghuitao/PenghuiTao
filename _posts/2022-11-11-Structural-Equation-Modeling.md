@@ -62,4 +62,7 @@ fit1 <- sem(model1, data = coping, se = "bootstrap", bootstrap = 200)  # Set boo
 summary(fit1, standardized = TRUE, fit = TRUE, rsquare = TRUE)  # View standardized results and model fit
 </code></pre>
 
-<p>We observe that the model's fit has worsened. Therefore, removing positive coping from the model seems to be problematic. Other adjustments, such as allowing error correlations, might be necessary to improve the fit indices. Since model tuning is time-consuming, I will not discuss it further here. You can conduct related research and refer to the references below.</p>
+<p>We observe that the model's fit has worsened. Therefore, removing positive coping from the model seems to be problematic. Other adjustments, such as allowing error correlations, might be necessary to improve the fit indices. Since model tuning is time-consuming, I will not discuss it further here. You can conduct related research and refer to the references below:
+<br>Bowen, N. K., & Guo, S. (2011). <i>Structural equation modeling</i>. Oxford University Press.
+<br>Cheung, G. W., Cooper-Thomas, H. D., Lau, R. S., & Wang, L. C. (2023). Reporting reliability, convergent and discriminant validity with structural equation modeling: A review and best-practice recommendations. <i>Asia Pacific Journal of Management, 41</i>(2), 745–783. <a href="https://doi.org/10.1007/s10490-023-09871-y">https://doi.org/10.1007/s10490-023-09871-y</a>
+<br>Hoyle, R. H. (Ed.). (1995). <i>Structural equation modeling: Concepts, issues, and applications</i>. Sage.</p>
