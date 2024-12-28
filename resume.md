@@ -61,9 +61,6 @@ Undergraduate Course
 **Radio and Television Commentary** – Chongqing University (Autumn 2023)  
 Undergraduate Course 
 
-**Interviewing and Writing for Journalism** – Chongqing University (Autumn 2022)  
-Undergraduate Course
-
 ### SERVICES
 
 **Manuscript Reviewer**, The 74th Annual International Communication Association Conference
