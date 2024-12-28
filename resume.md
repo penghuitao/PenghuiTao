@@ -44,14 +44,14 @@ GPA: 3.67/4.00
 **Trainee Journalist - Xinhua News Agency** <span style="float: right; ">08/2023 - 09/2024</span>  
 Assisted in writing and editing news articles on a variety of topics, with a focus on climate change and environmental issues. Conducted interviews and research to support news reports. 
 
-**Secretary General of Central China - The Youth4Climate Program to United Nations Framework Convention on Climate Change COP 25** <span style="float: right; ">12/2019 - 05/2020</span>  
-Managed and coordinated activities related to youth participation in the UNFCCC COP 25, working on climate advocacy and facilitating communication between young people, scientist, and policymakers.
-
 **Media Assistant - Jindon National Forest Park (Hunan, China)** <span style="float: right; ">06/2021 - 09/2021</span>  
 Supported media efforts to promote conservation initiatives and raise awareness about the park's ecological importance. Assisted with social media management and content creation.
 
 **PR Intern - Ogilvy** <span style="float: right; ">02/2021 - 05/2021</span>  
 Assist with PR communication projects, gather media clippings from monitoring tools, collect data and content from social media, and provide onsite support for PR events.  
+
+**Secretary General of Central China - The Youth4Climate Program to United Nations Framework Convention on Climate Change COP 25** <span style="float: right; ">12/2019 - 05/2020</span>  
+Managed and coordinated activities related to youth participation in the UNFCCC COP 25, working on climate advocacy and facilitating communication between young people, scientist, and policymakers.
 
 ### TEACHING ASSISTANT EXPERIENCE
 
