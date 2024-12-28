@@ -14,7 +14,7 @@ sitemap:
 <h1>News and Updates</h1>
 
 <div id="updates" style="text-align: left;">
-  <p><b>[Dec 14, 2024]</b> Submitted a co-authored paper to <b>ICEP 2025</b> on the longitudinal relationships between climate change anxiety, worry, information seeking, and information avoidance! Fingers crossed!</p>
+  <p><b>[Dec 14, 2024]</b> Submitted a co-authored paper to <b>ICEP 2025</b>. Fingers crossed!</p>
 
   <p><b>[Nov 25, 2024]</b> The second wave of data collection for our large-scale longitudinal survey has been completed with <b>a satisfying response rate</b>!</p>
 
@@ -22,23 +22,23 @@ sitemap:
 
   <p><b>[Oct 31, 2024]</b> Thrilled to have been awarded the 2024 <b>Chinese National Scholarship</b>!</p>
 
-  <p><b>[Oct 30, 2024]</b> Submitted a single-authored paper to <b>International Conference on Environmental Psychology (ICEP) 2025</b> on the three-wave longitudinal relationships between climate change transilience, efficacy, and risk perception! Wish me luck!</p>
+  <p><b>[Oct 30, 2024]</b> Submitted a single-authored paper to <b>International Conference on Environmental Psychology (ICEP) 2025</b>. Wish me luck!</p>
 
   <p><b>[Oct 19, 2024]</b> My <b>first SSCI-indexed paper</b> as the first author, titled <i>"Validating the Distinctiveness Between Transilience and Efficacy Constructs in China"</i>, has been accepted by <i><a href="https://doi.org/10.1007/s12144-024-06864-y" target="_blank">Current Psychology</a></i>! I’m beyond excited and proud!</p>
 
   <p><b>[Sep 4, 2024]</b> Submitted a <b>funding application</b> for my research. Wish me luck!</p>
 
-  <p><b>[Aug 10, 2024]</b> Attended the <b>AEJMC 2024 Annual Conference</b> and presented a poster on my recent research exploring the distinctiveness between efficacy constructs and transilience!</p>
+  <p><b>[Aug 10, 2024]</b> Attended the <b>AEJMC 2024</b> and presented a poster on my recent research exploring the distinctiveness between efficacy constructs and transilience!</p>
 
   <p><b>[June 20, 2024]</b> The first wave of data from our large-scale longitudinal survey has been collected! It’s a quota sample with a sample size of <b>4,186</b>!</p>
 
   <p><b>[June 1, 2024]</b> An exciting milestone! My team and I officially launched <b>a large-scale longitudinal survey using quota sampling</b>. Over <b>the next 18 months</b>, we will conduct <b>four waves</b> of measurement on variables like climate change anxiety, worry, efficacy belief, pro-environmental behavior, and information behaviors. Over the past six months, I raised <b>¥40,000 (approximately $5,500)</b> for this project! Wish us the best of luck!</p>
 
-  <p><b>[May 16, 2024]</b> Our paper on transilience and efficacy constructs has been accepted by the <b>AEJMC 2024 Annual Conference</b>! See you in Philadelphia!</p>
+  <p><b>[May 16, 2024]</b> Our paper on transilience and efficacy constructs has been accepted by the <b>AEJMC 2024</b>! See you in Philadelphia!</p>
 
   <p><b>[May 5, 2024]</b> Honored to receive research funding <b>¥10,000 (approximately $1,400)</b> from <b>Chongqing Municipality’s Graduate Research Innovation Project</b>!</p>
 
-  <p><b>[Mar 21, 2024]</b> Submitted a co-authored paper to <b>AEJMC 2024 Annual Conference</b> on the distinctiveness between transilience and efficacy constructs. Fingers crossed!</p>
+  <p><b>[Mar 21, 2024]</b> Submitted a co-authored paper to <b>AEJMC 2024</b>. Fingers crossed!</p>
 
   <p><b>[Feb 23, 2024]</b> Submitted my <b>first-ever research</b> paper for peer review to a psychology journal. Wish me luck!</p>
 </div>
