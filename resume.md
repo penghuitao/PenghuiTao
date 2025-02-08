@@ -20,7 +20,7 @@ GPA: 3.67/4.00
 ### RESEARCH SUMMARY
 
 - **Research Areas:** Climate change communication; Environmental psychology
-- **Research Methods:** Survey (e.g., longitudinal panel surveys); Experiment (e.g., web-based experiments, manipulation-of-mediation-as-a-moderator design); Advanced statistical methods (e.g., random intercept cross-lagged panel model, structural equation modeling, exploratory graph analysis)
+- **Research Methods:** Survey (e.g., longitudinal panel surveys); Experiment (e.g., web-based experiments); Advanced statistical methods (e.g., random intercept cross-lagged panel model, structural equation modeling, exploratory graph analysis)
 - **Analytics:** R, Mplus, SPSS
 
 ### PUBLICATIONS
